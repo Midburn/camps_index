@@ -563,16 +563,6 @@ hr {
     position: relative;
 }
 
-.blog-main:before,
-.blog-aside:before {
-    border-left: 1px solid #ced5db;
-    height: 100%;
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 1px;
-}
-
 @media (max-width: 767px) {
     .blog-main:before,
     .blog-aside:before {
