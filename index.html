@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="MidburnCampIndexApp">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +7,16 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="content/fa.css">
     <link rel="stylesheet" href="content/style.css">
 
     <!-- Scripts -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="app.js"></script>
 
-    <title>Title</title>
+    <title>Midburn 2016 - Theme Camps Index</title>
 </head>
 <body>
 
@@ -21,56 +24,101 @@
 
     <!-- Headline intro -->
     <div class="row">
-        <div class="well"> Welcome To Midburn 2016 - Theme Camps Index</div>
+        <div class="panel panel-heading">
+            Welcome To Midburn 2016 - Theme Camps Index
+        </div>
     </div>
 
     <!-- Camps index list 2 in a row -->
-    <div class="row">
+    <div class="row" ng-controller="CampListController">
         <div class="col-md-12 blog-main">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <article class=" blog-teaser">
-                        <header>
-                            <img src="http://demo.hackerthemes.com/tales/html-version/3.3.6_v1/img/cat.png" alt="A Cat">
-                            <h3><a href="blog-detail.html">Cats Everywhere</a></h3>
-                            <span class="meta">24 July 2013, Alexander Rechsteiner</span>
-                            <hr>
-                        </header>
-                        <div class="body">
-                            Bacon ipsum dolor sit amet esse duis pastrami anim, pancetta fatback capicola officia
-                            tenderloin. Meatloaf culpa ut, bacon sed sausage jerky cillum est ham ad laboris ham hock
-                            dolore. Venison ut enim, aliqua elit frankfurter et incididunt consequat culpa nostru aliqua
-                            elit pancetta.
-                        </div>
-                        <div class="clearfix">
-                            <a href="blog-detail.html" class="btn btn-tales-one">Read more</a>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="col-md-6 col-sm-6">
+                <div id="camp-card" class="col-md-6 col-sm-6" ng-repeat="camp in campData">
                     <article class="blog-teaser">
                         <header>
-                            <img src="http://demo.hackerthemes.com/tales/html-version/3.3.6_v1/img/cat.png" alt="Hands">
-                            <h3><a href="blog-detail.html">Big Thinkers</a></h3>
-                            <span class="meta">24 July 2013, Alexander Rechsteiner</span>
+
+                            <!-- Camp Status -->
+                            <div class="camp-icn">
+                                <span class="camp-icn-close" data-toggle="tooltip"
+                                      title="This camp is open to new members!"></span>
+                            </div>
+
+                            <!-- Camp Avatar/Icon -->
+                            <img ng-src="{{ camp.campAvatar }}" alt="Camp Avatar">
+
+                            <!-- Camp Name -->
+                            <h3>{{ camp.campName }}</h3>
+
+                            <!-- Camp Short Description -->
+                            <div class="meta">
+                                <p>
+                                    {{ camp.campShortDesc }}
+                                </p>
+                            </div>
                             <hr>
                         </header>
-                        <div class="body">
-                            Bacon ipsum dolor sit amet esse duis pastrami anim, pancetta fatback capicola officia
-                            tenderloin. Meatloaf culpa ut, bacon sed sausage jerky cillum est ham ad laboris ham hock
-                            dolore. Venison ut enim, aliqua elit frankfurter et incididunt consequat culpa nostru aliqua
-                            elit pancetta.
+
+                        <!-- Camp Full Details (*Collapsed) -->
+                        <div id="campId{{ camp.campId }}" class="body collapse">
+                            <p>
+                                {{ camp.campFullDesc }}
+                            </p>
+                            <p>
+                                <i class="fa fa-external-link fa"></i><a target="_blank" href="{{ camp.campWebsite }}"> {{ camp.campWebsite }}</a>
+                            </p>
+
+                            <div>
+                                <!-- Camp Contact Details -->
+                                <i class="fa fa-heart-o"></i> Contact Us
+                                <ul class="list-group">
+                                    <li class="list-group-item" ng-repeat="con in camp.campContacts">
+                                        {{ $index+1 }}. {{ con.name }} | {{ con.info }}
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
                         </div>
+
                         <div class="clearfix">
-                            <a href="blog-detail.html" class="btn btn-tales-one">Read more</a>
+                            <div class="center-block">
+                                <a href="#" data-toggle="collapse" data-target="#campId{{ camp.campId }}"
+                                   class="btn btn-default">
+                                    Read more
+                                </a></div>
                         </div>
                     </article>
                 </div>
             </div>
-
         </div>
     </div>
+
+        <footer>
+        <div class="wrapper">
+            <div class="row col-md-12">
+                <span class="logo col-xs-6"> © 2014-2016 Midburn Abracadabra</span>
+                <ul class="links col-xs-6">
+                    <!--<a href="" target="_blank"><li> </li></a>-->
+                    <a href="http://midburn.org/en/" target="_blank">
+                        <li>The Website</li>
+                    </a>
+                    <a href="http://midburn.org/en-event/" target="_blank">
+                        <li>The Event</li>
+                    </a>
+                    <a href="http://midburn.org/en-ten-principles/" target="_blank">
+                        <li>The Ten Principles</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
 
 </body>
 </html>
