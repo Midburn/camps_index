@@ -39,8 +39,10 @@
 
                             <!-- Camp Status -->
                             <div class="camp-icn">
+                                <span class="camp-icn-open" data-toggle="tooltip"
+                                      title="This camp is open to new members!" ng-show="camp.campIsOpen"></span>
                                 <span class="camp-icn-close" data-toggle="tooltip"
-                                      title="This camp is open to new members!"></span>
+                                      title="This camp is closed to new members." ng-show="!camp.campIsOpen"></span>
                             </div>
 
                             <!-- Camp Avatar/Icon -->
@@ -64,7 +66,8 @@
                                 {{ camp.campFullDesc }}
                             </p>
                             <p>
-                                <i class="fa fa-external-link fa"></i><a target="_blank" href="{{ camp.campWebsite }}"> {{ camp.campWebsite }}</a>
+                                <i class="fa fa-external-link fa"></i><a target="_blank" href="{{ camp.campWebsite }}">
+                                {{ camp.campWebsite }}</a>
                             </p>
 
                             <div>
@@ -92,7 +95,7 @@
         </div>
     </div>
 
-        <footer>
+    <footer>
         <div class="wrapper">
             <div class="row col-md-12">
                 <span class="logo col-xs-6"> © 2014-2016 Midburn Abracadabra</span>

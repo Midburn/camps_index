@@ -43,7 +43,8 @@ app.controller('CampListController', function ($scope) {
                 name: 'David',
                 info: 'David@mycampmail.com'
             }
-        ]
+        ],
+        campIsOpen: true
     },
         {
             campId: 2,
@@ -64,32 +65,12 @@ app.controller('CampListController', function ($scope) {
                     name: 'David',
                     info: 'David@mycampmail.com'
                 }
-            ]
+            ],
+            campIsOpen: false
         },
     ]
 
     $scope.campData = CampData;
     $scope.campContacts = CampData.campContacts;
 
-});
-
-
-//
-// Links wrapper
-//
-$(function () {
-    //
-    //$('[data-toggle="tooltip"]').tooltip();
-    //
-    //$('#camp-card').each(function () { // For each camp
-    //
-    //    // Find http/https text
-    //    $(this).html($(this).html().replace(/\bhttp[^ ]+/ig, wrap));
-    //    $(this).html($(this).html().replace(/\bhttps[^ ]+/ig, wrap));
-    //
-    //    // And wrap it up!
-    //    function wrap(str) {
-    //        return '<br><i class="fa fa-external-link fa"></i><a target="_blank" href="' + str + '"> ' + str + '<\/a>';
-    //    }
-    //});
 });
