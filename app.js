@@ -51,7 +51,7 @@ app.controller('CampListController', function ($scope) {
             campStatus: 0,
             campName: 'Some Other Camp',
             campShortDesc: 'We\'re a bar camp at MidBurn, dressing as clowns & serving drinks to everyone.',
-            campFullDesc: 'Sunrise Kingdom is a group of Israeli burners (Burning Man addicts...) dedicates to bring you the music and sounds we love. Started for the 2014 Midburn, the Israeli Burning Man official regional, and representing the playa spirit in other events too.',
+            campFullDesc: 'Wow!',
             campWebsite: 'http://soundcloud.com/sunrise-kingdom',
             campAvatar: 'content/camp-default-avatar.png',
             campContacts: [
