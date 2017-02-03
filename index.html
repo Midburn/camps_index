@@ -22,13 +22,19 @@
                     This page lists registered theme camps for Midburn 2016. The names and descriptions where supplied by the camps organizers and are under their responsibility.
                 </p>
             </div>
-            <div class="col-xs-12 camp__wrapper" ng-repeat="camp in camps">
+            <div class="col-xs-12 camp__search">
+                <input id="search_camp" ng-model="searchCamp" type="text" name="search" value="" placeholder="Serach a camp">
+            </div>
+            <div class="col-xs-12 camp__wrapper" ng-repeat="camp in camps | filter: searchCamp">
                 <div class="camp__info camp__info--card">
                     <div class="camp__header col-xs-4">
                         <h2>{{ camp.name_en }}</h2>
                         <div class="camp__badges">
                             <span ng-show="camp.status" class="camp__badges--status">{{camp.status}}</span>
                             <span ng-show="camp.accept_families" class="camp__badges--families">{{camp.accept_families}}</span>
+                        </div>
+                        <div class="camp__links">
+                            <a href="{{ camp.facebook_page_url }}" target="_blank">Facebook Page</a>
                         </div>
                     </div>
                     <div class="camp__description col-xs-8">
@@ -38,13 +44,11 @@
                             <ul>
                                 <li>Name: <b>{{ fullName }}</b></li>
                                 <li>Email: <b>{{ email }}</b></li>
-                                <li><a href="{{ camp.facebook_page_url }}" target="_blank">Facebook Page</a></li>
+                                <li>Phone: <b>{{ phone }}</b></li>
                             </ul>
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -52,11 +56,6 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
 </body>
 
 </html>
