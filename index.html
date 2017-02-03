@@ -27,7 +27,7 @@
             </div>
             <div class="col-xs-12 camp__wrapper" ng-repeat="camp in camps | filter: searchCamp">
                 <div class="camp__info camp__info--card">
-                    <div class="camp__header col-xs-4">
+                    <div class="camp__header col-xs-12 col-sm-4">
                         <h2>{{ camp.name_en }}</h2>
                         <div class="camp__badges">
                             <span ng-show="camp.status" class="camp__badges--status">{{camp.status}}</span>
@@ -37,9 +37,9 @@
                             <a href="{{ camp.facebook_page_url }}" target="_blank">Facebook Page</a>
                         </div>
                     </div>
-                    <div class="camp__description col-xs-8">
+                    <div class="camp__description col-xs-12 col-sm-8">
                         <p>{{ camp.desc_en }}</p>
-                        <a href="#" ng-click="_fetchContactPerson(1)" data-toggle="collapse" data-target="#camp__contactinfo--{{ camp.id }}" class="btn btn-default">Contact</a>
+                        <a href="javascript:;" ng-click="_fetchContactPerson({{ camp.contact_person_id }})" data-toggle="collapse" data-target="#camp__contactinfo--{{ camp.id }}" class="btn btn-default">Contact</a>
                         <div id="camp__contactinfo--{{ camp.id }}" class="camp__contactinfo collapse">
                             <ul>
                                 <li>Name: <b>{{ fullName }}</b></li>
