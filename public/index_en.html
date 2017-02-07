@@ -24,8 +24,8 @@
                     <div class="camp__header col-xs-12 col-sm-4">
                         <h2>{{ camp.name_en }}</h2>
                         <div class="camp__badges">
-                            <span ng-show="camp.status == 'כן'" class="camp__badges--status">New members</span>
-                            <span ng-show="camp.accept_families == 'כן'" class="camp__badges--families">Families</span>
+                            <span ng-show="camp.status == 'Open'" class="camp__badges--status">New members</span>
+                            <span ng-show="camp.accept_families == 'Yes'" class="camp__badges--families">Families</span>
                         </div>
                         <div class="camp__links">
                             <a ng-show="camp.facebook_page_url != null" href="{{ camp.facebook_page_url }}" target="_blank">Facebook Page</a>
