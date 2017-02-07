@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MidburnCampIndexApp" ng-cloak>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="content/style.css">
+    <script src="bower_components/angular/angular.min.js"></script>
+    <title>Midburn 2017 - Theme Camps Index</title>
+</head>
+
+<body>
+    <div class="container" ng-controller="CampListController">
+        <!-- Headline intro -->
+        <div class="row"><br>
+            <div class="col-xs-12 camp__search">
+                <input id="search_camp" ng-model="searchCamp" type="text" name="search" value="" placeholder="Serach a camp">
+            </div>
+            <div class="col-xs-12 camp__wrapper" ng-repeat="camp in camps | filter: searchCamp">
+                <div class="camp__info camp__info--card">
+                    <div class="camp__header col-xs-12 col-sm-4">
+                        <h2>{{ camp.name_en }}</h2>
+                        <div class="camp__badges">
+                            <span ng-show="camp.status == 'כן'" class="camp__badges--status">New members</span>
+                            <span ng-show="camp.accept_families == 'כן'" class="camp__badges--families">Families</span>
+                        </div>
+                        <div class="camp__links">
+                            <a ng-show="camp.facebook_page_url != null" href="{{ camp.facebook_page_url }}" target="_blank">Facebook Page</a>
+                        </div>
+                    </div>
+                    <div class="camp__description col-xs-12 col-sm-8">
+                        <p>{{ camp.desc_en }}</p>
+                        <a href="javascript:;" ng-click="_fetchContactPerson(camp.contact_person_id)" data-toggle="collapse" data-target="#camp__contactinfo--{{ camp.id }}" class="btn btn-default">Contact</a>
+                        <div id="camp__contactinfo--{{ camp.id }}" class="camp__contactinfo collapse">
+                            <ul>
+                                <li>Name: <b>{{ camp.fullName || 'n/a' }}</b></li>
+                                <li>Email: <b>{{ camp.email || camp.approval_email }}</b></li>
+                                <li>Phone: <b>{{ camp.phone || 'n/a' }}</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
