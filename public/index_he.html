@@ -33,11 +33,11 @@
                     </div>
                     <div class="camp__description col-xs-12 col-sm-8">
                         <p>{{ camp.desc_he }}</p>
-                        <a href="javascript:;" ng-click="_fetchContactPerson(camp.contact_person_id)" data-toggle="collapse" data-target="#camp__contactinfo--{{ camp.id }}" class="btn btn-default">יצירת קשר</a>
-                        <div id="camp__contactinfo--{{ camp.id }}" class="camp__contactinfo collapse">
+                        <a ng-show="true" href="javascript:;" ng-click="_fetchContactPerson(camp.contact_person_id)" data-toggle="collapse" data-target="#camp__contactinfo--{{ $index }}" class="btn btn-default">יצירת קשר</a>
+                        <div id="camp__contactinfo--{{ $index }}" class="camp__contactinfo collapse">
                             <ul>
                                 <li>שם: <b>{{ camp.fullName || 'n/a' }}</b></li>
-                                <li>אימייל: <b>{{ camp.email || camp.approval_email }}</b></li>
+                                <li>אימייל: <b>{{ camp.email || 'n/a' }}</b></li>
                                 <li>טלפון: <b>{{ camp.phone || 'n/a' }}</b></li>
                             </ul>
                         </div>
