@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/style.css">
     <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <title>Midburn 2017 - Theme Camps Index</title>
 </head>
 
@@ -32,13 +33,13 @@
                         </div>
                     </div>
                     <div class="camp__description col-xs-12 col-sm-8">
-                        <p>{{ camp.desc_en }}</p>
-                        <a ng-show="true" href="javascript:;" ng-click="_fetchContactPerson(camp.contact_person_id)" data-toggle="collapse" data-target="#camp__contactinfo--{{ $index }}" class="btn btn-default">Contact</a>
+                        <p ng-bind-html="html">{{ camp.desc_en }}</p>
+                        <a ng-show="camp.status == 'Open'" href="javascript:;" ng-click="_fetchContactPerson(camp.contact_person_id)" data-toggle="collapse" data-target="#camp__contactinfo--{{ $index }}" class="btn btn-default">Contact</a>
                         <div id="camp__contactinfo--{{ $index }}" class="camp__contactinfo collapse">
                             <ul>
-                                <li>Name: <b>{{ camp.fullName || 'n/a' }}</b></li>
-                                <li>Email: <b>{{ camp.email || 'n/a' }}</b></li>
-                                <li>Phone: <b>{{ camp.phone || 'n/a' }}</b></li>
+                                <li ng-show="camp.fullName">Name: <b>{{ camp.fullName || 'n/a' }}</b></li>
+                                <li ng-show="camp.email">Email: <b>{{ camp.email || 'n/a' }}</b></li>
+                                <li ng-show="camp.phone">Phone: <b>{{ camp.phone || 'n/a' }}</b></li>
                             </ul>
                         </div>
                     </div>

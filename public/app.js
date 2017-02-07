@@ -1,4 +1,4 @@
-var app = angular.module('MidburnCampIndexApp', []);
+var app = angular.module('MidburnCampIndexApp', ['ngSanitize']);
 
 app.controller('CampListController', function($scope, $http) {
     var API_URL = 'http://54.194.247.12';

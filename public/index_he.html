@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/style_he.css">
     <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <title>Midburn 2017 - Theme Camps Index</title>
 </head>
 
@@ -33,12 +34,12 @@
                     </div>
                     <div class="camp__description col-xs-12 col-sm-8">
                         <p>{{ camp.desc_he }}</p>
-                        <a ng-show="true" href="javascript:;" ng-click="_fetchContactPerson(camp.contact_person_id)" data-toggle="collapse" data-target="#camp__contactinfo--{{ $index }}" class="btn btn-default">יצירת קשר</a>
+                        <a ng-show="camp.status == 'Open'" href="javascript:;" ng-click="_fetchContactPerson(camp.contact_person_id)" data-toggle="collapse" data-target="#camp__contactinfo--{{ $index }}" class="btn btn-default">יצירת קשר</a>
                         <div id="camp__contactinfo--{{ $index }}" class="camp__contactinfo collapse">
                             <ul>
-                                <li>שם: <b>{{ camp.fullName || 'n/a' }}</b></li>
-                                <li>אימייל: <b>{{ camp.email || 'n/a' }}</b></li>
-                                <li>טלפון: <b>{{ camp.phone || 'n/a' }}</b></li>
+                                <li ng-show="camp.fullName">שם: <b>{{ camp.fullName || 'n/a' }}</b></li>
+                                <li ng-show="camp.email">אימייל: <b>{{ camp.email || 'n/a' }}</b></li>
+                                <li ng-show="camp.phone">טלפון: <b>{{ camp.phone || 'n/a' }}</b></li>
                             </ul>
                         </div>
                     </div>
