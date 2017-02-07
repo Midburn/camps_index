@@ -1,0 +1,140 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(fonts/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(fonts/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+    font-family: 'Alef-Bold';
+    src: url('fonts/Alef-Bold.eot');
+    src: url('fonts/Alef-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Alef-Bold.woff') format('woff'), url('fonts/Alef-Bold.ttf') format('truetype'), url('fonts/Alef-Bold.svg#alefbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alef';
+    src: url('fonts/Alef-Regular.eot');
+    src: url('fonts/Alef-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Alef-Regular.woff') format('woff'), url('fonts/Alef-Regular.ttf') format('truetype'), url('fonts/Alef-Regular.svg#alefregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* END FONTS */
+
+
+/* General Content styles such as links, body text, or headings */
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Alef', 'Lato', sans-serif !important;
+}
+
+.camp__search {
+    margin-bottom: 10px;
+}
+
+.camp__search #search_camp {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    background: #FFF;
+    height: 50px;
+    width: 100%;
+    padding: 0 30px;
+    background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU2Ljk2NiA1Ni45NjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU2Ljk2NiA1Ni45NjY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KPHBhdGggZD0iTTU1LjE0Niw1MS44ODdMNDEuNTg4LDM3Ljc4NmMzLjQ4Ni00LjE0NCw1LjM5Ni05LjM1OCw1LjM5Ni0xNC43ODZjMC0xMi42ODItMTAuMzE4LTIzLTIzLTIzcy0yMywxMC4zMTgtMjMsMjMgIHMxMC4zMTgsMjMsMjMsMjNjNC43NjEsMCw5LjI5OC0xLjQzNiwxMy4xNzctNC4xNjJsMTMuNjYxLDE0LjIwOGMwLjU3MSwwLjU5MywxLjMzOSwwLjkyLDIuMTYyLDAuOTIgIGMwLjc3OSwwLDEuNTE4LTAuMjk3LDIuMDc5LTAuODM3QzU2LjI1NSw1NC45ODIsNTYuMjkzLDUzLjA4LDU1LjE0Niw1MS44ODd6IE0yMy45ODQsNmM5LjM3NCwwLDE3LDcuNjI2LDE3LDE3cy03LjYyNiwxNy0xNywxNyAgcy0xNy03LjYyNi0xNy0xN1MxNC42MSw2LDIzLjk4NCw2eiIgZmlsbD0iIzAwMDAwMCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);
+    background-repeat: no-repeat;
+    background-position: 1%;
+    text-align: right;
+}
+
+.camp__wrapper {
+    margin-bottom: 15px;
+}
+
+.camp__info {
+    padding: 0.2em 1em;
+    min-height: 150px;
+    overflow: hidden;
+}
+
+.camp__info--card {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    box-shadow: 0 5px 15px rgba(50, 50, 93, .03), 0 5px 5px rgba(0, 0, 0, .02);
+}
+
+.camp__info .camp__header .camp__badges span {
+    background-color: #BBDEFB;
+    color: #FFF;
+    border-radius: 2px;
+    min-height: 70px;
+    padding: 3px 5px;
+}
+
+.camp__info .camp__header .camp__links {
+    padding: 1em 0;
+}
+
+.camp__info .camp__header .camp__badges .camp__badges--status {
+    background-color: #64DD17;
+}
+
+.camp__info .camp__description {
+    padding: 8px;
+}
+
+.camp__info .camp__contactinfo {
+    padding: 12px 0 0;
+}
+
+.camp__info .camp__contactinfo ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+h2:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #6772e5;
+    margin: 15px 0;
+}
+
+::selection {
+    background: #d01;
+    color: #000;
+}
+
+::-moz-selection {
+    background: #d01;
+    /* Firefox */
+    color: #000;
+}
+
+.camp__info.camp__info--card {
+    direction: rtl;
+}
+
+@media (min-width: 768px) {
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: right;
+    }
+}
