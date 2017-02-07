@@ -22,7 +22,7 @@ app.controller('CampListController', function($scope, $http) {
         });
     }*/
     //_getCamps();
-
+  
     function _getCampsJSON() {
         $http.get('/data.json').then(function(res) {
             $scope.camps = res.data.camps;
