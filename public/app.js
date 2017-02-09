@@ -25,7 +25,7 @@ app.controller('CampListController', function($scope, $http) {
   
     function _getCampsJSON() {
         $http.get('/data.json').then(function(res) {
-            $scope.camps = res.data.camps;
+            $scope.camps = res.data.ToPublish;
         }).catch(function(err) {
             alert('No camps found.');
         });

@@ -1,92 +1,67 @@
 {
-  "camps": [
+  "ToPublish": [
     {
-      "Timestamp": "1/29/2017 210629",
       "name_he": "קפה ועוגיות",
       "name_en": "coffee & cookies",
       "desc_he": "בית הקפה של הפלאיה. מרחב אירוח, מנוחה ומפגש בו יסופקו קפה, תה ועוגיות לכל",
-      "desc_en": "The playas Café . Hosting, resting and meeting space. Coffee, tea and cookies to anyone",
-      "email": "shaiparnes@gmail.com",
-      "duplicates": "1"
+      "desc_en": "The playas Café . Hosting, resting and meeting space. Coffee, tea and cookies to anyone"
     },
     {
-      "Timestamp": "1/29/2017 211332",
       "name_he": "סאונדבוקס",
       "name_en": "soundbox",
       "desc_he": "הסאונדבוקס הישן והטוב מגיע השנה בתור מחנה סאונד, במראה משודרג וסאונד איכותי ואור-קולי בנגיעות חומוס",
-      "desc_en": "the good old soundbox is coming back, with a new look, audiovisual lights, and a bit of hummus",
-      "email": "tshnek@gmail.com",
-      "duplicates": "1"
+      "desc_en": "the good old soundbox is coming back, with a new look, audiovisual lights, and a bit of hummus"
     },
     {
-      "Timestamp": "1/29/2017 213633",
       "name_he": "אברבנל מוטל",
       "name_en": "Abarbanel Motel",
       "desc_he": "מחנה אברבנל חוזר זו השנה הרביעית בגרסה המשופרת שלו ופותח את המוטל הראשון במידברן! מוטל פסיכדלי , הגיוני, מארח ומרחיק, מזמין ומגרש, צבעוני ואפור- מוטל כהלכתו! יהיה לנו מרחב מדהים ואולי גם כמה מסיבות צהריים )",
-      "desc_en": "Abarbanel Motel- established in the first Midburn and keep rocking your Playa, this year with our amazing Motel! you can check-in but never check-out )",
-      "email": "erezbk@gmail.com",
-      "duplicates": "1"
+      "desc_en": "Abarbanel Motel- established in the first Midburn and keep rocking your Playa, this year with our amazing Motel! you can check-in but never check-out )"
     },
     {
-      "Timestamp": "1/29/2017 215324",
       "name_he": "תחפושות",
       "name_en": "Costumes",
       "desc_he": "תחפושות תחפושות תחפושות!!!!",
-      "desc_en": "costumes costumes costumes!",
-      "email": "shlomi.assulin@gmail.com",
-      "duplicates": "1"
+      "desc_en": "costumes costumes costumes!"
     },
     {
-      "Timestamp": "1/29/2017 221451",
       "name_he": "פוסינמה",
       "name_en": "pussinema",
       "desc_he": "ברוכות השוות הביתה! אנחנו מחנה הפוסינמה. אחרי ההצלחה המסחררת במידברן 2015 והמטורללת ב 2016 אנו חוזרות ובוערות מתמיד למידברן 2017! פוסינמה - ביטוי נשי ראדיקלי! חגיגת יופי, תנועה, מוסיקה ואירוטיקה נשית. מדי ערב אוהל קולנוע מפנק להשראה נשית, הופעות חיות, מסיבות פופקורן ובר שיכורות. ויש לנו גם גברים! (שיחקו אותה באודישנים) עם הערצה נשית מוחצנת וחוסר מוסיות משווע. אצלנו כולן יוצרות, עומלות ובונות את הבית, למרות שזה נראה שיש לנו עבדים, זה קורה רק במקרים מסויימים ובהסכמה! אז בואו לשחק  איתנו;)",
-      "desc_en": "Welcome home! We are the Pussinema, back for our dizzying success in Midburn 2015 and 2016. We are getting ready for 2017- and coming back brighter and fiery as ever! Pussinema is all about that beautiful, seductive radical feminine expression! A celebration of beauty, movement, music and feminine erotica. Every night we will host you in our warm and inviting theater tent where we will inspire you with our live shows, popcorn parties, delightful bar and our feminine mystic. And yes, we also have men. Men of the best caliber, those that worship and delight in the life and beauty of women. In our home we all work together and build together (even though it looks professional- we do all the hard work. What can we say we like to work up a sweat). Come play with us, we’ll be waiting 😉",
-      "email": "zivchen5@012.net.il",
-      "duplicates": "1"
+      "desc_en": "Welcome home! We are the Pussinema, back for our dizzying success in Midburn 2015 and 2016. We are getting ready for 2017- and coming back brighter and fiery as ever! Pussinema is all about that beautiful, seductive radical feminine expression! A celebration of beauty, movement, music and feminine erotica. Every night we will host you in our warm and inviting theater tent where we will inspire you with our live shows, popcorn parties, delightful bar and our feminine mystic. And yes, we also have men. Men of the best caliber, those that worship and delight in the life and beauty of women. In our home we all work together and build together (even though it looks professional- we do all the hard work. What can we say we like to work up a sweat). Come play with us, we’ll be waiting 😉"
     },
     {
-      "Timestamp": "1/29/2017 221936",
       "name_he": "רדיו יוניברס",
       "name_en": "Radio Universe‏",
       "desc_he": "מתחברים לתדר של המדבר עם Radio Universe. &#10;הצטיידו במכשיר קולט רדיו ותקבלו תוכן, מוזיקה ועדכונים חמים ישירות מהפלאייה. במהלך הימים נבקר במחוזות האמביינט, דאב, רגאיי, פסייציל, דאונטמפו, רוק קלאסי, צועני, בלוז, פולק וצלילים אוריינטלים בין גלקטיים מרחבי היוניברס. הכל יתובל ברוח שטות, שיחות מעניינות ואנשי נונסנס מוכשרים. הקאמפ המדליק שלנו יהיה הלב והנשמה של הרדיו וישדר בלייב את התוכניות עם סאונד משובח.",
-      "desc_en": "Tune in with the frequency of the desert with Radio Universe. Bring your own radio device to get the full experience of our special music, broadcasts, playa news and interesting conversations full of nonsense ) flow with the variety of genres as Ambient, Dub, Psychill, Downtempo, Blues, Classic Rock, Ethnic, Folk and Oriental music from all around the universe. Our funky camp will be the heart & soul of the radio, and will broadcast live with an excellent sound.&#10;Tune in with the sound of the Universe, and share the Love of Music&#10;",
-      "email": "Nireani@gmail.com ",
-      "duplicates": "1"
+      "desc_en": "Tune in with the frequency of the desert with Radio Universe. Bring your own radio device to get the full experience of our special music, broadcasts, playa news and interesting conversations full of nonsense ) flow with the variety of genres as Ambient, Dub, Psychill, Downtempo, Blues, Classic Rock, Ethnic, Folk and Oriental music from all around the universe. Our funky camp will be the heart & soul of the radio, and will broadcast live with an excellent sound.&#10;Tune in with the sound of the Universe, and share the Love of Music&#10;"
     },
     {
-      "Timestamp": "1/29/2017 223516",
       "name_he": "פרילאב",
       "name_en": "FreeLove",
       "desc_he": "FreeLove - מרחב בטוח לחקירה וביטוי של מיניות בריאה. &#10;פיתוח הקשבה לגוף מרחיבה את התודעה. דרך אינטימיות מודעת אנחנו יכולים להעצים את עצמנו ואת בן/בת זוגנו. אצלנו מקפידים על מיניות כנה, קשובה ומעצימה על-מנת ליצור מרחב מקבל עבור כולם.&#10;איך נביא את זה לפלאיה? נבנה את ה-Pleasure Dome - מרחב בטוח וידידותי לבטא בו מיניות בכל יופיה ועל כל גווניה, לכל המגדרים, הנטיות וההעדפות. ניתן במה לכל מי שירצה להעביר סדנה, שיחה, מופע או תוכן שקשור לאהבה, אינטימיות, דימוי גוף, מיניות, מגע, חושניות ועונג. בלילה הדום הופך למרחב משחק פתוח וחופשי לזוגות וקבוצות.&#10;חברי המחנה יוצרים ושותפים ליצירת האווירה במחנה. &#10;אנחנו מחזיקים מרחב בטוח ופתוח לבאי העיר לבוא ללמוד לחוות ולהתענג אצלנו )",
       "desc_en": "Free Love - a safe space for deepening into healthy sexuality. Tuning into our bodies expands our consciousness. Through aware intimacy we empower ourselves and our loved ones. We practice honest, attentive, empowering sexuality. We create a safe space for all.&#10;&#10;On the Playa we offer the Pleasure Dome - a safe and friendly space to express sexuality in all its beauty, for all genders, orientations and preferences.&#10;We offer a space for workshops, talks, shows and any expression of love, intimacy, body image, sexuality, touch, sensuality and pleasure. &#10;At night, the Dome becomes an open and free playground for couples and moresomes.&#10;&#10;Camp members are partners and creators of the the atmosphere in the camp.&#10;We hold a safe and open space for the city guests to stop by and learn, experience and relish )",
       "status": "Open",
       "email": "campfreelove@gmail.com ",
-      "facebook_page_url": "https//www.facebook.com/CampFreeLove/",
-      "duplicates": "1"
+      "facebook_page_url": "https//www.facebook.com/CampFreeLove/"
     },
     {
-      "Timestamp": "1/29/2017 225700",
       "name_he": "שבת היום",
       "name_en": "Shabbat HaYom",
       "desc_he": "&#10;החלום הצלול שלנו זה לקום כל בוקר ליום שבת... בואו לאכול גחנון, להפסיד ב-20 שאלות, לדפוק שנצ, לקום למסיבת שבת בצהריים, ולחטוף ספאנקינג משבת מלכת הסאדו. שבת שלום)",
       "desc_en": "Our lucid dream is to wake up every morning to Shabbat day (Saturday)... Come and eat Jachnun, lose at a 20-question-trivia, take a nap, wake up to an afternoon party and get spanked by Shabbat the S&M Queen. Shabbat Shalom)",
       "status": "Open",
       "fullName": "רות השקס",
-      "email": "hashkesr@post.bgu.ac.il",
-      "duplicates": "1"
+      "email": "hashkesr@post.bgu.ac.il"
     },
     {
-      "Timestamp": "1/29/2017 231238",
       "name_he": "אקרו קאמפ",
       "name_en": "acro camp",
       "desc_he": "סדנאות והופעות אקרובטיקה כל היום וכל הלילה",
       "desc_en": "acro performances and workshops all day and all night",
-      "email": "nadavdan85@gmail.com",
-      "duplicates": "1"
+      "email": "nadavdan85@gmail.com"
     },
     {
-      "Timestamp": "1/29/2017 232010",
       "name_he": "ילדי שנות השמונים",
       "name_en": "Children of the 80s",
       "desc_he": "קאמפ ילדי שנות השמונים הולך להיות הדבר הכי ״תוסס״ בפלאיה, אנחנו מתכננים מסיבות כיתה, משחקים ״מדליקים״ של שנות השמונים, קולנוע שנות השמונים ואוכל שתיה ״דליקטס״ ברוח התקופה.&#10;עם זאת אנחנו לא מתכוונים לשעבד אף אחד לקאמפ ואחד העקרונות שלנו זה לאפשר לחברי הקאמפ לחוות את הפלאיה במלוא עצמתה ע״י הגבלת כמות הפעילויות שלנו לרמה סבירה ושעות הגיוניות.",
@@ -95,11 +70,9 @@
       "fullName": "אלעד סופר",
       "phone": "546620765",
       "email": "childrenofthe80@gmail.com",
-      "facebook_page_url": "https//www.facebook.com/groups/1252044484891151/?ref=bookmarks",
-      "duplicates": "1"
+      "facebook_page_url": "https//www.facebook.com/groups/1252044484891151/?ref=bookmarks"
     },
     {
-      "Timestamp": "1/29/2017 234838",
       "name_he": "הספריה",
       "name_en": "The Library",
       "desc_he": "במקום שבו שורפים אנשים ישרפו גם ספרים. המחנה יתפקד כספרייה ציבורית, בה כל אחד יכול להכנס ולבחור ספר מבין המוני הספרים היושבים על המדפים ולקרוא אותו בפינות השונות. כמו כן, פעילויות שונות, הקראות ציבוריות, מפגש עם סופרים, סיפור בהמשכים של האירוע, שעת שקט, מסיבה שקטה, סיפורים מה-Burn ועוד. יהיו פינות ישיבה/פינות כתיבה/פינות יצירה, תהיה הנגשה של ספרים להמונים ובעיקר מקום לכל אדם להתחיל לכתוב את הסיפור שלו. אנחנו מחנה שקם במטרה לאפשר ״ריאה שקטה״ ופינה נעימה לאנשים למהלך האירוע להירגע, לקחת ספר טוב ולצלול אל תוך חלום צלול",
@@ -108,11 +81,9 @@
       "fullName": "Guy Fleisher",
       "phone": "504444444",
       "email": "guyfleisher@yahoo.com",
-      "facebook_page_url": "https//www.facebook.com/hardcorebeithanan",
-      "duplicates": "1"
+      "facebook_page_url": "https//www.facebook.com/hardcorebeithanan"
     },
     {
-      "Timestamp": "1/30/2017 01936",
       "name_he": "מופע האימים של מנסון",
       "name_en": "manson show",
       "desc_he": "להקת מופע האימים של מנסון היא להקת רוק מוכשרת ובועטת, זהוא מחנה ותיק שאוהב להשתולל ולעשות גמינג ומוסיקה טובה לכל הקהילה",
@@ -121,11 +92,9 @@
       "fullName": "מרחב פרא",
       "phone": "546107602",
       "email": "mpere6@gmail.com",
-      "facebook_page_url": "https//www.facebook.com/groups/1577606285806802/?fref=ts",
-      "duplicates": "1"
+      "facebook_page_url": "https//www.facebook.com/groups/1577606285806802/?fref=ts"
     },
     {
-      "Timestamp": "1/30/2017 02333",
       "name_he": "אסקמפיזם",
       "name_en": "Escampism",
       "desc_he": "הא/נשים שהביאו לכם חדר בריחה ב-2016, שמחים לגרום לכם FOMO נוסף גם ב-2017! עם סדרת פלאשמובים, תעלולים, מופעים וחוויות בלתי נשכחות, שיתקיימו באופן חד פעמי וללא התראה מוקדמת ויתפזרו באבק כלעומת שבאו, שיגרמו לכם להתפלא, לחייך ולצחוק. &#10;אם אתם חובבי הפתעות, יצירה או אלתורים, אתם/ן מוזמנים/ות להצטרף אלינו! &#10;נשמח לקבל ברנרים ותיקים וגוזלים כאחד.&#10;",
@@ -133,29 +102,23 @@
       "status": "Open",
       "fullName": "ניר הוטניק",
       "phone": "052-5676743",
-      "email": "nirhutnik@gmail.com",
-      "duplicates": "1"
+      "email": "nirhutnik@gmail.com"
     },
     {
-      "Timestamp": "1/30/2017 83750",
       "name_he": "סטארדסט",
       "name_en": "StarDust",
       "desc_he": "הקאמפ קם על מנת ליצור  תדר אהבה וחברות וחשיבה רחבה שיפגיש בין כל משתתפי האירוע ומחוצה לו בחיינו.&#10;המטרה להיות מעורטלים מחסמים ותירוצים,אין עירום מתוכנן, אבל לך תבנה תיכנונים.. יש מגוון פעילויות כמו רולטת היכרות , פינות נוי לאינטימיות במבנה אוקטגון הנישא לגובה שלשה מטרים, יצירת אינטרקציה עם אנשים מחוץ למחנה בכל שעות הפלאייה, הרצאות וסדנאות בינו לבינה וחגיגת החיים והאפשרות לגלות את עצמך ואת המדבר ותושביו מחדש.",
       "desc_en": "The camp was set up for the purpose of increasing the love, friendship and a wider view of things for all of us, in order to mix between all the citizens of the burn and outside of it.&#10;The goal is to be free of barriers and excuses, theres no organized nudity but what do we know..&#10;A variety of activities such as meeting roulette, intimate spaces in an octagon shape tower, and an overall interaction in and all over the Playa during all days, him and her workshops and an overall celebration on life and new discoveries of yourself and through out the desert.",
-      "email": "shaibablum@gmail.com",
-      "duplicates": "1"
+      "email": "shaibablum@gmail.com"
     },
     {
-      "Timestamp": "1/30/2017 131134",
       "name_he": "כנאפה בחלל",
       "name_en": "Knaffe in Space",
       "desc_he": "כנאפה בחלל! בכל יום, כשהשמש שוקעת בין ההרים, הכנאפה מגיע לקחת אתכם לחלל עם מסיבה מעולם אחר. בואו בכסוף, בואו לרקוד, בואו לסעוד ובואו לעוף!",
       "desc_en": "Knaffe in Space! Every day, as the sun sets between the mountains, the Knaffe will come to take you to outer space with a party out of this world. Come wearing silver, come to dance, come to feast and come fly with us!",
-      "email": "cerbery@gmail.com",
-      "duplicates": "1"
+      "email": "cerbery@gmail.com"
     },
     {
-      "Timestamp": "1/30/2017 131152",
       "name_he": "ממעמקים",
       "name_en": "mimaamakim",
       "desc_he": "ממעמקים זה בית לכל מי שמחפש רוחניות במידברן. זה מקום בו נעים להיפגש ולשהות. כולם מוזמנים לשבת ולהיות חלק מהפעילויות שלנו תמיד. מטקסי קקאו למעגלי שירה מקודשת, ארוחת חג ותיקון ליל שבועות. בתקווה רבה גם יהיה ספר תורה שנוכל לרקוד איתו בפלאייה השנה. ",
@@ -164,29 +127,23 @@
       "fullName": "רינת לוינסון",
       "email": "rinatbella@gmail.com",
       "facebook_page_url": "https//www.facebook.com/groups/1483020858674278/",
-      "accept_families": "Yes",
-      "duplicates": "1"
+      "accept_families": "Yes"
     },
     {
-      "Timestamp": "1/30/2017 133520",
       "name_he": "ארנבים בחול",
       "name_en": "Rabbits in the Sand",
       "desc_he": "ארנבים בחול הוא מחנה סאונד ומיצב אמנות. השילוב ביניהם מביא למידברן את רחבת הריקודים המוטרפת והפסיכדלית ביותר ברחבי הפלאיה, עם ליין אפ מוגזם שמאגד תחתיו את נבחרת הדיג׳ייז המובילה בארץ בדיפ האוס וטכנו.",
       "desc_en": "Rabbits in the Sand is a SoundCamp and Art installation built to provide the Playa with the most outrageous psychedelic  dance floor through out the duration of Midburn and beyond, hosting Israel’s top local DJs in the Techno and Deep House scene.&#10;",
-      "email": "adishabat1@gmail.com",
-      "duplicates": "1"
+      "email": "adishabat1@gmail.com"
     },
     {
-      "Timestamp": "1/30/2017 181245",
       "name_he": "pizdyetz",
       "name_en": "פיזדייץ",
       "desc_he": "מחנה מוזיקה, מסיבות יום + מיצג אור",
       "desc_en": "Music camp, day party,+ light performance ",
-      "email": "liliandtomtlv@gmail.com",
-      "duplicates": "1"
+      "email": "liliandtomtlv@gmail.com"
     },
     {
-      "Timestamp": "1/30/2017 203701",
       "name_he": "פנטזיה-מוזיקה",
       "name_en": "fantasia- music",
       "desc_he": "פנטזיקה. ליצור פנטזיה בעזרת מוזיקה",
@@ -196,11 +153,9 @@
       "phone": "544940530",
       "email": "Noam.rivlin15@gmail.com ",
       "facebook_page_url": "https//www.facebook.com/nkid4",
-      "accept_families": "Yes",
-      "duplicates": "1"
+      "accept_families": "Yes"
     },
     {
-      "Timestamp": "1/30/2017 204304",
       "name_he": "שיחות נפש",
       "name_en": "Soul to Soul talks",
       "desc_he": "רוצה לדבר עם אדם שיהיה ממש קשוב אליך? יביט ישר לתוך עיניך ויבין בדיוק, אבל בדיוק על מה אתה מדבר? אתה וגם את מוזמנים אלינו לשיחת נפש עמוקה אחד על אחד. המחנה מעניק כגיפטינג הקשבה, כל אחד מאיתנו יודע להקשיב, להכיל, לתת לך מקום, לשאול את השאלות הנכונות ולהיות שם רק בשבילך.",
@@ -209,11 +164,9 @@
       "fullName": "אוסנת סטימצקי",
       "phone": "523261849",
       "email": "osnathst@gmail.com",
-      "facebook_page_url": "https//www.facebook.com/osnat.steimatzky",
-      "duplicates": "1"
+      "facebook_page_url": "https//www.facebook.com/osnat.steimatzky"
     },
     {
-      "Timestamp": "1/30/2017 214652",
       "name_he": "ממלכת העוגיות",
       "name_en": "Cookie Kingdom",
       "desc_he": "שבוע לפני הפרייד בתא, ממלכת העוגיות מביאה את הפרייד אל המידברן עם מוסיקת האוס מרימה ועוגיות חמות מהתנור!",
@@ -222,20 +175,16 @@
       "fullName": "Max C. Reuveni",
       "phone": "545880407",
       "email": "ReuveniC@GMail.com",
-      "facebook_page_url": "www.facebook.com/MaxCR",
-      "duplicates": "1"
+      "facebook_page_url": "www.facebook.com/MaxCR"
     },
     {
-      "Timestamp": "1/30/2017 222133",
       "name_he": "שובי דובי",
       "name_en": "Shoobi Doobi",
       "desc_he": "בא לכן להירגע קצת ולהתכרבל עם דובי ענק? הגעתן למקום הנכון! מחנה שובי דובי מציע לכל איזור שבו תוכלו להירגע, לדמיין ולהתכרבל.",
       "desc_en": "Do you want to relax a bit and cuddle huge teddybears? Youve arrived to the right place!&#10;Shoobi Doobi camp offers you an area where you can relax, imagine and cuddle in privacy. ",
-      "email": "yahav.tako@gmail.com",
-      "duplicates": "1"
+      "email": "yahav.tako@gmail.com"
     },
     {
-      "Timestamp": "1/31/2017 00743",
       "name_he": "תפוח",
       "name_en": "Apple",
       "desc_he": "התפוח מסמל התפתחות אבולוציונית משחר בריאת העולם ועד ימינו אנו התפוח מככב בהיסטוריה של עמים ודתות, למשל כסמל לפוריות במיתולוגיה הגרמנית, כסמל האהבה ביוון העתיקה וכמובן כסמל לידע, פיתוי וחטא בסיפור גן העדן, כאשר אכילתו הובילה לגירוש אדם וחווה מגן העדן.&#10;מוצא התפוח באסיה וטוענים שמי שהביא אותו לאירופה היה אלכסנדר מוקדון. כיום, ישנם כ-7,500 זנים שונים של תפוחי עץ בעלי טעמים, גדלים, צבעים וצורות שונים. מחנה תפוח מזמין משתתפים בעלי טעמים, גדלים, צבעים וצורות שונים... לרבות מגורשים מגן עדן.&#10;",
@@ -244,11 +193,9 @@
       "fullName": "נתי גולדמן",
       "phone": "506908908",
       "email": "natigoldman@gmail.com",
-      "accept_families": "Yes",
-      "duplicates": "1"
+      "accept_families": "Yes"
     },
     {
-      "Timestamp": "1/31/2017 11815",
       "name_he": "הילד הפנימי - תודעה",
       "name_en": "inner child - consciousness",
       "desc_he": "מחנה  אוויר לנשימה-לנשמה של מידברנרים מדברים תודעה  המיועד  לילדעים (ילדים שנולדים יודעים) בכל גיל (גם למבוגרים בגילם הלינארי יש ילד פנימי) שרוצים ללמוד וללמד איך לברוא מציאות בכוח התודעה, איך להשתמש באש (רצון יצירתי)כדי לממש (אדמה)- בתבונה(עם יותר אוויר-הבנה ופחות פזיזות הדעת) , איך להתעלות ממים (רגשנות) לשמיים(רוח), איך לעשות כשפות עם היסודות כמו האוואטר כדי להביא איזון לעולם ע”י חיבור עולם הרוח (הפנימית) והחומר (החיצוני) ",
@@ -257,11 +204,9 @@
       "phone": "524670045",
       "email": "naama.w.tohar@gmail.com",
       "facebook_page_url": "https//www.facebook.com/groups/588140148047667/?fref=ts",
-      "accept_families": "Yes",
-      "duplicates": "1"
+      "accept_families": "Yes"
     },
     {
-      "Timestamp": "1/31/2017 20706",
       "name_he": "האודיופיל",
       "name_en": "The AudioPhil",
       "desc_he": "באר הקוקטיילים האקסקלוסיבי חוזר שוב עם שילוב קטלני בין ג׳אז, קוקטיילים וטכנו.                &#10;מחתרת עם קלאסה. &#10;סודיות מובטחת לכל המבקרים.&#10;אם הגעתם אלינו, לא תשכחו.&#10;מספר המקומות מוגבל תמיד,&#10;אנחנו מכניסים רק את מי שבא לנו,&#10;ולא תמיד בא לנו.&#10;אין כניסה עם לדים.&#10;שעירי חזה בבקשה להתכסות.&#10;ותיזהרו מחיקויים.",
@@ -269,11 +214,9 @@
       "status": "Open",
       "fullName": "עומר סחייק (oogie)",
       "email": "photographoogie@gmail.com",
-      "facebook_page_url": "https//www.facebook.com/TheAudioPhil/",
-      "duplicates": "1"
+      "facebook_page_url": "https//www.facebook.com/TheAudioPhil/"
     },
     {
-      "Timestamp": "1/31/2017 72305",
       "name_he": "מקדש הבועה",
       "name_en": "The bubbles tumple",
       "desc_he": "פעם השלישית מקדש הבועה קם מן האבק. והפעם&#10;מחנה סאונד | מחנה שקט&#10;דאבל באבל&#10;המסיבה עוברת לפלאיה&#10;המחנה הופך זן&#10;באיזה שדר תבחרו?&#10;באיזה תדר תרטטו?&#10;הבועה צוללת אל חלום צלול",
@@ -281,47 +224,33 @@
       "status": "Open",
       "fullName": "עינבר מרגוליס",
       "phone": "524717998",
-      "email": "Inbarmargol@gmail.com",
-      "duplicates": "1"
+      "email": "Inbarmargol@gmail.com"
     },
     {
-      "Timestamp": "1/31/2017 104835",
       "name_he": "עדן בן זקאמפ",
       "name_en": "Eden Ben ZaCamp",
       "desc_he": "עדן בן זקאמפ 2017 גאים להציג - החמארה של המידברן .&#10;בואו לשים ת׳ראש על דיונה ,להיוועץ בפרופסורים לח׳אריסה ,להרגיש בבית, על קפה שחור , פיתות על הסאג׳ וג׳אמים ים תיכוניים. &#10;אנחנו חבורה של כוכבים, אוהבי דקלון ומעוולים, מיתרים מהמערב וטוסיקים מהים הכספי/בלקן והכי חשוב נגינה מהמזרח! &#10;בואו לנפוש על הגל ולעלות את הכבוד בחמארה (;",
-      "desc_en": "Eden Ben ZaCamp 2017 proud to announce  - The Hamara of Midburn!&#10;Come and join us to thrash your heads on the magical dunes of the desert, consult with professors of the harisha, feel at home, with a cup of black coffee, pita on the Sage, and Mediterranean jam sessions.&#10;We are a bunch of stars, lovers of Daklon and Maawoolim, Western strings and Asses from the Caspian/Balkan Sea - the most important we love Balkan and Eastern musical instruments!&#10;Come and relax on the wave of the most respected Hamara of the world (;",
-      "email": "elinorbc@gmail.com",
-      "duplicates": "1"
+      "desc_en": "Eden Ben ZaCamp 2017 proud to announce  - The Hamara of Midburn!&#10;Come and join us to thrash your heads on the magical dunes of the desert, consult with professors of the harisha, feel at home, with a cup of black coffee, pita on the Sage, and Mediterranean jam sessions.&#10;We are a bunch of stars, lovers of Daklon and Maawoolim, Western strings and Asses from the Caspian/Balkan Sea - the most important we love Balkan and Eastern musical instruments!&#10;Come and relax on the wave of the most respected Hamara of the world (;"
     },
     {
-      "Timestamp": "1/31/2017 120034",
       "name_he": "זיגוטה",
       "name_en": "zygote",
       "desc_he": "ברוכים הבאים. קמפ זיגוטה הוא הבית של משפחות הדוגלות בחינוך טבעי. &#10;אנחנו מתכננים להביא למידברן 2017 שלל של פעילויות הקשורות בבבית, בחינוך ובמשפחה סדנאות בנושא חינוך אלטרנטיבי, חינוך ביתי, התמודדות במצבים שונים בחיי יום יום, סדנאת החלפת חיתולים ועוד. במתחם הקמפ יוצב תא ביצה ענק, ועוברי האורח יוזמנו להתחפש לזרעון ולנסות להפרות את תא הביצה. והכי חשוב, מכיוון שהצבא צועד על קיבתו נחלק בפלאיה גיפטינד בריא של ירקות.  ",
-      "desc_en": "Welcome. Camp zygote is home to the families espouse natural education.&#10;We plan to have in midburn 2017 a variety of activities  family and education related workshops on alternative education, homeschooling, dealing with various situations in everyday life, how to change a diaper and more. On camp site we will place a cell, and passers-by will be invited to dress up as sperm and try to fertilize the egg cell. Most importantly, as an army marches on its stomach we will handout healthy vegetables on the playa.",
-      "email": "tamar.pashut@gmail.com",
-      "duplicates": "1"
+      "desc_en": "Welcome. Camp zygote is home to the families espouse natural education.&#10;We plan to have in midburn 2017 a variety of activities  family and education related workshops on alternative education, homeschooling, dealing with various situations in everyday life, how to change a diaper and more. On camp site we will place a cell, and passers-by will be invited to dress up as sperm and try to fertilize the egg cell. Most importantly, as an army marches on its stomach we will handout healthy vegetables on the playa."
     },
     {
-      "Timestamp": "1/31/2017 134628",
       "name_he": "מחנה אויר",
       "name_en": "Air Camp",
       "desc_he": "מחנה אויר מארח! השנה החלטנו במחנה אויר לעשות מעשה ולפתוח את שעריינו לכמה שיותר אורחים שיעברו במחנה ויהנו מחברה טובה ומצופרים מהנים. אז נעשה מרגריטות, סנגריות, קפה בדואי במדורה ועוד המון צופרים וגיפטינג מכל הבא ליד עד שיגמר. בנוסף יחזרו הפעילויות הנהדרות שלנו כגון שרשרת בלוני הליום, גלה גלביות ועוד.",
-      "desc_en": "Air Camp hosts! This year we at Air Camp decided to open or gates to as many guests that will enjoy good company and fun treats. So we will make margaritas, sangria, coffee Bedouin campfire and lots of gifting until its over. In addition our great activities will return such as helium balloons chain, Gala Djellabas and more.",
-      "email": "iosikot@gmail.com",
-      "duplicates": "1"
+      "desc_en": "Air Camp hosts! This year we at Air Camp decided to open or gates to as many guests that will enjoy good company and fun treats. So we will make margaritas, sangria, coffee Bedouin campfire and lots of gifting until its over. In addition our great activities will return such as helium balloons chain, Gala Djellabas and more."
     },
     {
-      "Timestamp": "1/31/2017 161225",
       "name_he": "גאמבורי",
       "name_en": "Jamboree",
       "desc_he": "בתור אסופה של מבוגרים עם נפש צעירה ותשוקה למוזיקה יש לנו חזון לייצר חלל המשלב מגרש משחקים צבעוני ופלטפורמה לפיתוח הנפש המוזיקלית של כל אדם.&#10;אנו ניצור יחדיו מגרש משחקים בצורת חלל גימבורי עשיר ובו טרמפולינות, מגלשות, מזרונים נדנדות ועוד, שבמרכזו נקים במת גאמים פתוחים בה נוכל לנגן יחד וליצור מוזיקה וצלילים. &#10;בנוסף, מחנה הגאמבורי יקיים סדנאות כגון סדנאות לייצור לכלי נגינה וסדנאות תיפוף.&#10;אנו שואפים ליצור חלל בו כל אחד ואחת, בכל גיל, יוכל ותוכל לשחק וליצור במקביל, ובאווירה משולבת. ביחד נביא לידי ביטוי באופן טבעי את הילד הפנימי שבתוכנו,  באווירת יצירה מוזיקאלית חסרת מגבלות.",
-      "desc_en": "As a group of adults with young spirits and passion for music, we have a vision to create a space which combines a colorful play-ground and the platform for developing everybody`s musical inner soul.&#10;Together we will create a playground in the shape of a Gymboree with swings, slides, trampolines, mattresses etc. and in its center an open Jam where we can play and create music & tunes together.&#10;In addition, the Jamboree invites you to join workshops such as building musical instruments, and drumming.&#10;We inspire to create a space in which our inner child comes out is expressed, while enjoying a limitless musical creation atmosphere.",
-      "email": "lior@atlashotels.co.il",
-      "duplicates": "1"
+      "desc_en": "As a group of adults with young spirits and passion for music, we have a vision to create a space which combines a colorful play-ground and the platform for developing everybody`s musical inner soul.&#10;Together we will create a playground in the shape of a Gymboree with swings, slides, trampolines, mattresses etc. and in its center an open Jam where we can play and create music & tunes together.&#10;In addition, the Jamboree invites you to join workshops such as building musical instruments, and drumming.&#10;We inspire to create a space in which our inner child comes out is expressed, while enjoying a limitless musical creation atmosphere."
     },
     {
-      "Timestamp": "1/31/2017 170418",
       "name_he": "סאונדפולנס",
       "name_en": "Soundfulness",
       "desc_he": "נושא הקמפ הוא מערכת היחסים שבין צליל דינמי במרחב לבין מדיטציה מעשית בהגדרתה הרחבה ביותר.&#10;הקו הכללי הוא הקלטת סורסים במקום (בשיתוף תושבות ותושבי העיר) ועריכתם לידי סשן חוויה אקוסטית מדיטטיבית לייב.&#10;לא מדובר במדיטציה מלווה במוזיקת רקע אלא סשן אינטגרלי שבו ההתבוננות וההקשבה מזינות אחת את השניה.",
@@ -330,11 +259,9 @@
       "fullName": "עמרי בלאו",
       "phone": "525414849",
       "email": "blauomri@gmail.com",
-      "accept_families": "Yes",
-      "duplicates": "1"
+      "accept_families": "Yes"
     },
     {
-      "Timestamp": "1/31/2017 191534",
       "name_he": "מיינסטרים אקסטרים",
       "name_en": "Mainstram Extreme",
       "desc_he": "אנחנו המֶייְנְסְטִרים  (גיקים עם טוויסט) שאפתנים ועסוקים, מנסים לכבוש את העולם בחוץ... אבל יש בנו עוד צד... יש לנו צורך בעוד מָשהו, התנתקות מהחובה ומן המוכר. יש בנו צורך ליצור! לחוות! לשבור ולבנות מחדש! יש בנו צורך להוציא אמנות, אפילו שאנחנו לא אמנים. אנחנו לא מוסיקאים או דיגאים, אבל נעלה לתת סט שיקפיץ את הפלאיה כמחנה סאונד עם מוזיקת מיינסטרים והופעות.... בואו להתארח אצלינו במסיבות וסביב למדורה.&#10;",
@@ -343,20 +270,15 @@
       "fullName": "יובל קשטר",
       "phone": "544922585",
       "email": "yuvalkash@gmail.com",
-      "facebook_page_url": "https//www.facebook.com/MainstreamExtreme-%D7%9E%D7%99%D7%99%D7%A0%D7%A1%D7%98%D7%A8%D7%99%D7%9D%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%99%D7%9D-1300343059976448/",
-      "duplicates": "1"
+      "facebook_page_url": "https//www.facebook.com/MainstreamExtreme-%D7%9E%D7%99%D7%99%D7%A0%D7%A1%D7%98%D7%A8%D7%99%D7%9D%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%99%D7%9D-1300343059976448/"
     },
     {
-      "Timestamp": "1/31/2017 193052",
       "name_he": "קודמה",
       "name_en": "Kodama",
       "desc_he": "ברוכים הבאות לקמפ קודמה. נוסד במדברנרות 2013, קמפ קודמה הוא נקודת מפגש של רוחות חופשיות אשר ביקשו להביא אל הפלאיה נגיעה יצירתית ומשוחררת של מיתולוגיה עתיקה ופולקלור. אז מה זה קודמה? שאלה זו העסיקה רבים, אפילו את חברי המחנה. קודמה היא סוג של רוח במיתולוגיה היפנית. גרסאות שונות מספרות על קודמות שונות; צורתה יכולה להיות מגולמת כרוח קטנה, עץ גדול או אפילו הד אשר שר בינות ההרים והעמקים.&#10;ייתכן ואתם אפילו מכירים את קודמה מסרט האנימה אשר הפך לקאלט הנסיכה מונונוקי.&#10;מי שכבר מכיר אותנו ומי שלא, חפשו אותנו על הפלאיה וגלו אילו הפתעות אנו מכינים לכם במידברן 2017. &#10;חלומות פז צלולים.",
-      "desc_en": "Welcome to Camp Kodama. Established in 2013, Camp Kodama is a humble gathering of free spirits looking to bring a bit of ancient mythology and folklore to the Playa. So what is a kodama you ask? This very question has puzzled many, even in our camp. A kodama is a spirit of ancient Japanese mythology; its form can transcend from a spirit creature, to a tree, to even an echo which sings in a mountain or valley. You may even know of the kodama from the cult classic movie, Princess Mononoke. Meet us on the playa to see what new surprises we have in store for Midburn 2017. &#10;Sweet lucid dreams.",
-      "email": "joav.feldman@gmail.com",
-      "duplicates": "1"
+      "desc_en": "Welcome to Camp Kodama. Established in 2013, Camp Kodama is a humble gathering of free spirits looking to bring a bit of ancient mythology and folklore to the Playa. So what is a kodama you ask? This very question has puzzled many, even in our camp. A kodama is a spirit of ancient Japanese mythology; its form can transcend from a spirit creature, to a tree, to even an echo which sings in a mountain or valley. You may even know of the kodama from the cult classic movie, Princess Mononoke. Meet us on the playa to see what new surprises we have in store for Midburn 2017. &#10;Sweet lucid dreams."
     },
     {
-      "Timestamp": "2/1/2017 184726",
       "name_he": "שונה לגמרי",
       "name_en": "Completely different",
       "desc_he": "    ועכשיו למשהו שונה לגמרי. &#10;     כל מי שימצא במחנה הוא שונה לגמרי מכל שאר שוכני הפלאייה. &#10;    שאנו נאמר כולכם שונים,&#10;    אתם תענו, כולנו שונים.&#10;    שאנו נאמר כולכם אינדיבידואלים,&#10;    אתם תענו, כולנו אינדיבידואלים.&#10;    אני לא. . . . &#10;    במחנה זה בהשראת קבוצת מונטי פייתון אנו נעסוק בתכנים ציניים ומגוחכים על גבול הגרוטסק בשילוב עם ביקורת סטירית ורדיקלית על הקהילה כולה.&#10;     אנו נשחזר מערכונים, נקרין סרטים וקטעי וידאו, נספק תוכן מקורי ונקים מיצג שראוי לגיחוך והערצה.&#10;    על המועמדים להיות-&#10;   * בעלי חוש הומר שאינו יודע גבולות ועדיף שיהיה בגוון כהה ככל האפשר.&#10;   * בעלות בקיאות בסיסית בתוכן והאינטלקט הפייתוני.&#10;   * בעלי יצירתיות של חומר ורוח בכל נשימה.&#10;   * בעלות התחייבות להקמה או פירוק.&#10;   * בעלי יכולת יצירת חשלש ללא עזרת חבר.",
@@ -364,29 +286,21 @@
       "status": "Open",
       "fullName": "עידן או צחי",
       "email": "iddqd7633@gmail.com",
-      "facebook_page_url": "https//www.facebook.com/groups/232405303836113/",
-      "duplicates": "1"
+      "facebook_page_url": "https//www.facebook.com/groups/232405303836113/"
     },
     {
-      "Timestamp": "2/2/2017 120026",
       "name_he": "ספארקל יוניקורן",
       "name_en": "Sparkle Unicorn",
       "desc_he": "&#10;הספארקל יוניקורן! מגיעים גם השנה להפיץ את בשורת משקה החד-קרן הייחודי שלנו, להרגיע אתכם בשעת הביניים שלפני הזריחה (420), ובעיקר לנצנץ. &#10;&#10;אז אם אתם אוהבים לנצנץ ומרגישים שאתם חדי קרן, מעולה! בואו להתארח אצלנו בסלון, להנות מהמוזיקה של די גיי ספארקל, ולהרגיש בבית! &#10;",
-      "desc_en": "The Sparkle Unicorn is returning this year to spread our spectacular Unicorn Potion, soothe you in the twilight times before sunrise (420) and most importantly - sparkle!&#10;&#10;So you love to sparkle and feel like you are unicorns? Excellent! Come relax in our salon, enjoy the crazy beats by DJ Sparkle and feel at home )",
-      "email": "avivshmueli@hotmail.com",
-      "duplicates": "1"
+      "desc_en": "The Sparkle Unicorn is returning this year to spread our spectacular Unicorn Potion, soothe you in the twilight times before sunrise (420) and most importantly - sparkle!&#10;&#10;So you love to sparkle and feel like you are unicorns? Excellent! Come relax in our salon, enjoy the crazy beats by DJ Sparkle and feel at home )"
     },
     {
-      "Timestamp": "2/2/2017 122432",
       "name_he": "טינטו דה וראנו",
       "name_en": "Tinto De Verano",
       "desc_he": "טינטו דה וראנו מביא את הקרנבל לפלאיה! ישראלים, פלשתינים, ותיירים מכל העולם חוגגים עם מוזיקה מרימה ואספקה אינסופית של המשקה האלכוהולי הספרדי טינטו דה וראנו!",
-      "desc_en": "Tinto De Verano will bring international flavors and fun to the Playa! Israelis, Palestinians, internationals bringing party flavors and music from around the world AND an endless supply of Tinto De Verano (a wine drink from Spain)! An endless carnival focusing on different taste and cultures from around the world! )&#10;",
-      "email": "arrkat@gmail.com",
-      "duplicates": "1"
+      "desc_en": "Tinto De Verano will bring international flavors and fun to the Playa! Israelis, Palestinians, internationals bringing party flavors and music from around the world AND an endless supply of Tinto De Verano (a wine drink from Spain)! An endless carnival focusing on different taste and cultures from around the world! )&#10;"
     },
     {
-      "Timestamp": "2/2/2017 174943",
       "name_he": "קאמפ שטיפלה",
       "name_en": "Camp Shtifale",
       "desc_he": "המחנה הכי רטוב בפלאיה!&#10;קאמפ שטיפל’ה מספק לכל תושבי הפלאיה את הפעילות המפנקת והנדירה מאוד בתנאי המדבר שהיא מקלחת, בליווי מוזיקה וצוות שוטפים מטורף.&#10;אחרי שהמקלחות נסגרות בערב, מתחם ה-AfterBath נפתח עם מוזיקה מפנקת, שתיה חמה ועוד הרבה הפתעות שיעזרו לכם להירגע בין כל המסיבות.&#10;כדי להתקלח אצלנו, כל מה שאתם צריכים להביא זה 2 ליטר מים. מומלץ להביא גם מגבת. ביגוד אופציונלי ;)",
@@ -394,11 +308,9 @@
       "status": "Open",
       "fullName": "חן כהן",
       "email": "orlevy1989@gmail.com",
-      "facebook_page_url": "מבקשים לינק לאתר במקום בבקשה - shtifale.org",
-      "duplicates": "1"
+      "facebook_page_url": "מבקשים לינק לאתר במקום בבקשה - shtifale.org"
     },
     {
-      "Timestamp": "2/3/2017 84827",
       "name_he": "אֵאוֹפְּלוֹצֵפָלוּס",
       "name_en": "Euoplocephalus",
       "desc_he": "אם יש לכם ילדות או גם ילדים, אם הם אוהבים לשחק, לשיר, לייצר אומנות וללמוד על סביבה ירוקה - הם מוזמנים אלינו למחנה. ההורים שלהם יכולים לבוא לזולה הענקית ולהיטרק איתנו. יהיה לנו גם ארוחות, בעיקר טבעוניות. תוכלו גם להצטרף אלינו להכנות ולהתארח איתנו במדבר. במחנה ניצור סביבה אומונתית, ממוחזרת וירוקה. (לא נשתמש בשירותים הכימיים) &#10;תיהיה קצת מוזיקה בשעות היום ואווירת שאנטי. סדנאות יצירה ומשחקים אבל גם מדורה בערב, רק אנחנו ההורים.&#10;לסיום זהו מחנה משפחות אבל לא רק. יש מקום לכולם",
@@ -408,20 +320,16 @@
       "phone": "539281456",
       "email": "Brurycohn@gmail.com",
       "facebook_page_url": "Brurya cohen",
-      "accept_families": "Yes",
-      "duplicates": "1"
+      "accept_families": "Yes"
     },
     {
-      "Timestamp": "2/3/2017 203326",
       "name_he": "קריוקאמפ בר",
       "name_en": "Karaokemp Bar",
       "desc_he": "בר האלכוהול השווה בעיר ובמת הופעות חיות לחובבנים וחצי מקצוענים.",
       "desc_en": "The best alcohol bar in the city and a live stage for amatures and semi professionals alike.",
-      "email": "Zakzasad@gmail.com",
-      "duplicates": "1"
+      "email": "Zakzasad@gmail.com"
     },
     {
-      "Timestamp": "2/4/2017 00134",
       "name_he": "בעקבות מנהרת הארנב",
       "name_en": "Rabbit Hole",
       "desc_he": "נזמין אותך להיכנס למחילה הצוננת שלנו, מפלט מרענן, &#10;מזגן טבעי, באמצע מדבר שרבי.&#10;מרחב סטרילי מרעש הפלאיה הסוערת, &#10;בו מתמסרים לציפה על עננים רכים ולבנים&#10;בזמן שארנבים וארנבות חמדמודים מגישים לך &#10; כוס תה מחוזקת וצוננת בשעות הקשות של החום.&#10;ברקע יתנגנו צלילים נעימים, מלטפים ומחבקים&#10;כאלה שמנקים את הראש מגירויים, גזרים ושועלים.&#10;מבטיחים לך להנות, לנוח, להתרענן ולצאת ממחילת הארנב&#10;עם בטריה מלאה ב-good vibee בשביל להמשיך בטרפת החושים של הפלאיה.&#10;&#10;",
@@ -431,38 +339,27 @@
       "phone": "548092021",
       "email": "nogadaskal@yahoo.com",
       "facebook_page_url": "https//www.facebook.com/groups/1210364062374892/",
-      "accept_families": "Yes",
-      "duplicates": "1"
+      "accept_families": "Yes"
     },
     {
-      "Timestamp": "2/4/2017 150219",
       "name_he": "שבורית זכוכה",
       "name_en": "groken blass",
       "desc_he": "במת גאם פתוחה לקהל- בואו לנגן לשיר ולרקוד! מסיבות ספונטניות מתחשבות - בואו לנענע!",
-      "desc_en": "Jam session stage, open for burners to play, sing and dance. As well as great parties to shake your asses!",
-      "email": "orly.nus2@gmail.com",
-      "duplicates": "1"
+      "desc_en": "Jam session stage, open for burners to play, sing and dance. As well as great parties to shake your asses!"
     },
     {
-      "Timestamp": "2/5/2017 95654",
       "name_he": "תפורות",
       "name_en": "Tfurot",
       "desc_he": "תפורות הוא מרחב קסום של יצירה והתחפשות אישית רדיקלית.&#10;במחנה תמצאו שפע חוטים ומחטים, מכונות תפירה, שאריות בדים, בגדים ממוחזרים ועוד.&#10;במהלך היום יתקיימו שעות יצירה בהן תוכלו לשפץ ולתפור תוספות לתלבושות או ליצור כמה פרודוקטים מוכווני מזג האוויר והאווירה.&#10;בנוסף אנו מזמינים אתכן ואתכם לקחת חלק ביצירה המשותפת שלנו, תפירת תבניות בד ססגוניות לדום של תפורות.",
-      "desc_en": "Tfurot is a magical place for creativity and radical self expressive dressing.&#10;In our workshop, you will find threads & needles, sowing machines, leftover fabrics and more.&#10;We will hold creativity sessions, where you can fix-up and pimp your attire, to make it more weather and atmosphere appropriate for Midburn!&#10;Last, but not least, we invite our guests to contribute their personal touch to our collective creation by sowing cloth patterns onto Tfurots dome.",
-      "email": "noamiw@gmail.com",
-      "duplicates": "1"
+      "desc_en": "Tfurot is a magical place for creativity and radical self expressive dressing.&#10;In our workshop, you will find threads & needles, sowing machines, leftover fabrics and more.&#10;We will hold creativity sessions, where you can fix-up and pimp your attire, to make it more weather and atmosphere appropriate for Midburn!&#10;Last, but not least, we invite our guests to contribute their personal touch to our collective creation by sowing cloth patterns onto Tfurots dome."
     },
     {
-      "Timestamp": "2/5/2017 112648",
       "name_he": "ולהאלה!",
       "name_en": "Valhalla",
       "desc_he": "קרבות, בירה וקורבן אדם! להאללה הוא העולם הבא של הויקינגים. לאחר שמתו מות גיבורים בסופו של קרב עקוב מדם, מגיעים לוחמינו אל היכלו של האל אודין, משתכרים כאוות נפשם ונהנים מהעולם הבא. הבאים בשערינו יוכלו לנסות את מזלם בשדה הקרב, ולהנות מבירה צוננת בסופו.",
-      "desc_en": "Battles, beer and human sacrifice! Valhalla is the Viking afterlife. After dying a heros death in battle, our warriors arrive at the hall of Odin the Allfather, drink, feast and enjoy all the perks death has to offer. Those who enter our gates will have a chance to prove themselves in battle and enjoy a cool beer at the end of it.  ",
-      "email": "mayravbraude@gmail.com",
-      "duplicates": "1"
+      "desc_en": "Battles, beer and human sacrifice! Valhalla is the Viking afterlife. After dying a heros death in battle, our warriors arrive at the hall of Odin the Allfather, drink, feast and enjoy all the perks death has to offer. Those who enter our gates will have a chance to prove themselves in battle and enjoy a cool beer at the end of it.  "
     },
     {
-      "Timestamp": "2/5/2017 153222",
       "name_he": "סמלי קאמפ",
       "name_en": "smelly camp",
       "desc_he": "סלון הריחות של העיר מידברן.&#10;בהליכה של עשר דקות על הפלאייה תוכלו להביא את כלל החושים לאופוריה&#10;מלבד אחד חוש הריח.&#10;סמלי קאמפ הוא המקדש של החוש הבלתי נראה.&#10;בהרחה אחת תוכלו להבין אם מצאתם את תאום הנפש שלכם, לחזור לרגע ילדות טהור&#10;ותכלס להריח דשא קצוץ באמצע המדבר זה ממש מגניב.",
@@ -471,20 +368,15 @@
       "fullName": "דרור לרמן",
       "phone": "542011881",
       "email": "dror.lerman1@gmail.com",
-      "accept_families": "Yes",
-      "duplicates": "1"
+      "accept_families": "Yes"
     },
     {
-      "Timestamp": "2/5/2017 215922",
       "name_he": "קמפ שנצ",
       "name_en": "Shnazzz for your Siesta",
       "desc_he": "קמפ שנצ מזמין אתכם למנוחת צהריים בפלאיה. כל יום בין שתיים לארבע בצהריים אתם מוזמנים לנמנם ולנוח במתחם המפנק שלנו באווירה נעימה ורגועה. שעון החול יזרום ובסופו תתקיים חפלת השכמה מעוררת, כל יום השכמה אחרת – הפתעות ופינוקים.                                         במקביל וביקום נפרד נקים מיצג שינה סוריאליסטי בעומק הפלאיה. שם נזמין אתכם לחלום במרחב השתקפויות אינסופי בו גבולות החלל הממשי מיטשטשים...                          ",
-      "desc_en": "Shnazzzz - for your siesta. Every day between 2-4 pm you are lovingly invited to our pampering camp for your well-deserved afternoon nap. Just relax and take it easy in an atmosphere of tranquility and serenity, while the sand in the hourglass trickles away slowly. Each afternoon wake-up call is going to be full of surprises and treats!&#10;In a parallel universe we will create a surrealistic sleeping installation to be located deep in the Playa. There we will invite you to dream in an infinite reflection space where boundaries become blurred...",
-      "email": "anat.erez@gmail.com",
-      "duplicates": "1"
+      "desc_en": "Shnazzzz - for your siesta. Every day between 2-4 pm you are lovingly invited to our pampering camp for your well-deserved afternoon nap. Just relax and take it easy in an atmosphere of tranquility and serenity, while the sand in the hourglass trickles away slowly. Each afternoon wake-up call is going to be full of surprises and treats!&#10;In a parallel universe we will create a surrealistic sleeping installation to be located deep in the Playa. There we will invite you to dream in an infinite reflection space where boundaries become blurred..."
     },
     {
-      "Timestamp": "2/6/2017 100858",
       "name_he": "הכל כלול",
       "name_en": "Full Board",
       "desc_he": "כמו החופשות שישראלים אוהבים בטורקיה, מחנה הכל כלול, כשמו כן הוא, מתיימר שיהיו בו מגוון רחב של תכנים, כגון כירבולים, ניגונים אקוסטיים, מוזיקה מוגברת, תחרות קרקור כתרנגולים עם עלות השחר, מסיבת ערסים מזעזעת עם מוזיקה מזרחית, וודקה XL ושרשרים, בישולים בסירי ענק לטובת כל הקהילה, שעורי יצירה מגניבים בעזרת מכונת תפירה, שירה בציבור, הרצאות במגוון נושאי אקולוגיה, תזונה בריאה, פנינו לאן, ותקשורת מקרבת.&#10;&#10;אנחנו גרעין של כעשרה חברים, ועם הזמן נגדל עד כדי 20 אנשים בערך. אין לנו יומרות להיות מחנה ענק. טוב לנו עם מחנה קטן ומתוקתק, מחושלש למופת ובטיחותי.&#10;&#10;מחנה הכל כלול יתן את הפרמיירה שלו בגדול, לאחר נסיון שצבר בקונטרה ברן, ברנרות, קאמל ברן, והקונספט המגוון אותו יצר.&#10;",
@@ -493,29 +385,21 @@
       "fullName": "Relly Bar El",
       "phone": "+972-50-4230322",
       "email": "nolingam@gmail.com",
-      "facebook_page_url": "https//www.facebook.com/groups/1685153941783058/",
-      "duplicates": "1"
+      "facebook_page_url": "https//www.facebook.com/groups/1685153941783058/"
     },
     {
-      "Timestamp": "2/6/2017 114056",
       "name_he": "XOXO",
       "name_en": "XOXO",
       "desc_he": "יחידת המתנקשים המתנשקים האגדית מגיעה לישראל בפעם הראשונה!! יחידת החיסול המפורסמת בעולם, והיחידה היחידה שמאמינה בחיסול על ידי אהבת חינם, הולכת להפתיע אתכם על הפלאייה ברגעים הכי פחות צפויים.",
-      "desc_en": "The legendary Kissing assassins unit are coming to Israel for the first time ever!! The world-famous assassination unit, and the only one who believes in elimination only by unconditional love, are going to surprise you in the middle of the Playa on the most unexpected moments.",
-      "email": "zaguri@gmail.com",
-      "duplicates": "1"
+      "desc_en": "The legendary Kissing assassins unit are coming to Israel for the first time ever!! The world-famous assassination unit, and the only one who believes in elimination only by unconditional love, are going to surprise you in the middle of the Playa on the most unexpected moments."
     },
     {
-      "Timestamp": "2/6/2017 141648",
       "name_he": "ביזאריה",
       "name_en": "bizzaria",
       "desc_he": "כל יום במידברן הוא חדש ושונה, וכך גם אנחנו בעולמות הביזאר. כל יום תה וכיבוד בנושא שונה, עם סיכונים שונים. בטוחים שאתם מספיק אמיצים והרפתקנים לשתות תה ביזאר?",
-      "desc_en": "everyday at midburn is different, and so are we in the bizzare relm. everyday well offer a different and dangerous array of bizarre tea and cookies. are you brave enough to drink bizzare tea?",
-      "email": "meitalingber@gmail.com",
-      "duplicates": "1"
+      "desc_en": "everyday at midburn is different, and so are we in the bizzare relm. everyday well offer a different and dangerous array of bizarre tea and cookies. are you brave enough to drink bizzare tea?"
     },
     {
-      "Timestamp": "2/6/2017 162002",
       "name_he": "קרקרה",
       "name_en": "Karkara",
       "desc_he": "ברוכים הבאים לקמפ קרקרה,&#10;&#10;מִצְוָה גְּדוֹלָה לִהְיוֹת בְּשִׂמְחָה תָּמִיד, כָּל הַיּוֹם כֻּלּוֹ צָרִיך לִהְיוֹת בְּשִׂמְחָה&#10;&#10;קמפ קרקרה מביא את הצחוק והשמחה למרכז הפלאיה של מידברן 2017,&#10;אצלנו להתקרקר זו דרך חיים, ואלינו מגיעים טובי המתקרקרים....גם השדונים ובעיקר הפיות...&#10;&#10;מוזיקה משובחת, צחוקים עד לב השמים, מסיבות שלא נגמרות והרבה אהבת חינם זה הקטע שלנו, וכל מי שזקוק לחיבוק, שיחה, אוכל לגוף או לנשמה, ימצא אותם אצלנו... אצלנו אוהבים את כולם....גם אותך.&#10;&#10;האם אתם מוכנים לחוויה שתעיר ותשנה את חייכם?  לפני, תוך כדי, ולאחר המידברן - חוויה טרנספומטיבית אמיתית שתיקח אתכם רחוק רחוק...&#10;&#10;--- לזמן מוגבל בלבד עדיין מגייסים שדונים ופיות ---&#10;&#10;אם אתן פיות מוכשרות וטובות לב, שאהבה וביטוי רדיקאלי זורם בדם שלכן - אנחנו רוצים אתכן איתנו!&#10;&#10;אם אתה שדון נלהב ונמרץ שאהבת אדם, שמחת חיים והכללה רדיקאלית הם טבע שני לך - בוא להתקרקר אצלנו!&#10;&#10;",
@@ -523,8 +407,242 @@
       "status": "Open",
       "fullName": "יצחק",
       "email": "itzhak@moreno.co.il",
-      "facebook_page_url": "https//www.facebook.com/CampKarkara",
-      "duplicates": "1"
+      "facebook_page_url": "https//www.facebook.com/CampKarkara"
+    },
+    {
+      "name_he": "גיקאמפ",
+      "name_en": "Geekcamp",
+      "desc_he": "בלי פאניקה!&#10;גיקאמפ הוא מחנה של גיקים שאוהבים כל מה שגיקים אוהבים. סטאר טרק וסטר וורז, משחקי מחשב ורטרו, לחווט ולהלחים ולתכנת ארדוינו או לקמפל קרנל של לינוקס, וכמובן גם פנטסיה (לא, לא כזאת פנטסיה).&#10;נתלבש במדי הצי או נסתוב כסופר גיבורים, נגיש סינטהול ורומולן אייל בבר של גיינן, סדנאות הכנת לייט סייבר, שיחות על השאלה הנצחית למשמעות החיים היקום וכל השאר. צפיה לילית בכוכבים והסברים אסטרונומים וחיפוש לווינים אחרי השקיעה ולפני הזריחה. על כל חברי הקאמפ לדעת איפה המגבת שלהם.&#10;",
+      "desc_en": "&#10;Don't Panic!&#10;Geekcamp is the place for geeks and geeks in training, we love everything geeky be it star trek or star wars, computer games, makers, programming Arduino, compiling Linux Kernel, or just love hard core science, this is your home.&#10;&#10;We plan to walk around with starfleet uniforms, or as our regular superhero selves, serve synthehol at Guinan's bar, have lightsaber and wands workshops, and stay up late watching the stars searching for satellites and other lifeforms.&#10;&#10;All members of the camp must know where their towel is",
+      "status": "Open",
+      "fullName": "לי עדן",
+      "phone": "544963787",
+      "email": "geekcamp@odedsharon.com",
+      "facebook_page_url": "https://www.facebook.com/groups/geekcampmidburn"
+    },
+    {
+      "name_he": "לד ברן",
+      "name_en": "LED BURN",
+      "desc_he": "אנחנו קמפ סאונד. אנחנו באים להרעיד את הפלאייה!&#10;קמפ לד ברן לא התחיל במידברן ובטח לא נגמר שם. במהלך השנה, הבריגדה הלדברנית פועלת כחבורה שמחה במטרה להנכיח את האטמוספירה הברנינגמנית, את סיפורם ותרבותם של הברנרים הישראלים בשיח הציבורי ובתרבות הפאן וזאת ע\"י הפקה של *ארועי לד ברן ומסיבות מפגרות לאורך כל השנה.  &#10;*ארוע לד ברן הוא זמן סינגולרי שיש בו רק טוב. אנחנו נהנים בקנאיות בארועים שלנו. האמונה שלנו שזה מדבק&#10;הקאמפ 18+",
+      "desc_en": "We are a sound-camp, we come to shake the playa!&#10;Camp LED burn didn't start at the Midburn and surely doesn't end there.&#10;Throughout the year, the LED burn brigade acts as a happy group in a mission to bring the burner atmosphere, the stories and culture of Midburners in the public agenda and the fun culture with *LED burn events and stupid parties throughout the year.&#10;*LED burn event is a singular time of joy and goodness. Our belief is contagious&#10;18+ Camp",
+      "email": "talbluver@gmail.com"
+    },
+    {
+      "name_he": "מיקרו-אקלים",
+      "name_en": "Microclimate",
+      "desc_he": "נווה מדבר הממוזג טבעית במערכת סגורה",
+      "desc_en": "Naturally conditioned oasis of the playa",
+      "status": "Open",
+      "fullName": "שלי",
+      "phone": "509922003",
+      "email": "shellyagam@gmail.com"
+    },
+    {
+      "name_he": "קן הקוקיה",
+      "name_en": "Cuckoos nest",
+      "desc_he": "לכל הקוקואים והקוקיות יש מקום מפלט חמים מכל השיגעונות.&#10;בואו לקנן, לדגור על ביצה, לטעון את עצמכם להתחלה חדשה.&#10;לנוח קצת בקן, מתוך ההמולה ולתת לפלאיה לעשות את שלה.&#10;עם ציוץ ציפורים וכמה גוזלים תוכלו לשכב ולחלום חלומות צלולים.",
+      "desc_en": "For the cuckoos among us, &#10;wild birds that never found their place &#10;We built you your own space.&#10;After flying throughout the playa &#10;come and rest in our nest, recharge while gazing up at the stars.&#10;From our warm and humble home&#10;Your welcome to roam your lucid dreams.&#10;"
+    },
+    {
+      "name_he": "חפלה בפלה",
+      "name_en": "Hafla Bafla",
+      "desc_he": "מעבר להרי החול האדמדמים, הבלו הול, ומיץ הגויאבה אצל סולימן הגדול, שוכן לו קמפ חפלה בפלה. &#10;מרחוק תוכלו לזהות את השלט הזוהר סטייל לאס וגאס פוגשת את שארם א-שייח', ואת פניכם תקבל החושה המרכזית, פינה של אי שפיות בתוך האי שפיות, הררי כריות, מזרונים קטנים, שולחנות ומקום להיפגש, להסתלבט, ולהתפקס.&#10;אם תחפוץ נפשיכם לצאת לשנרקול, ניקח אתכם למסע מהפנט בשונית האלמוגים בה תוכלו לפגוש יצורים ובפלות תת מימיות, כמו שרואים רק במידברן...&#10;אם יתמזל מזלכם, אולי, ורק אולי, תיפלו לידנו ותוכתרו להיות שייח'ים אשר נהנים מכל מה שאין סוף נפט וקפה שחור יכול להציע לכם. השנה השייח' לא לא יגביל עצמו רק לתחומי שבט הבפלה, אלא ישלוט בכל הפלאיה!!&#10;וכמובן, אתם מוזמנים לבדוק עצמכם, עד כמה אתם חפלאים??! ריקודי בטן, תופים, בפלות ללא גבול, ועינוגים!&#10;",
+      "desc_en": "Beyond the red sand mountains, the Blue Hole, and the guava juice of Sinai, resides camp Hafla Bafla.&#10;From far away you will reconize the shining sign, Las-Vegas meets Sharem A-Sheikh style, and you will be welcomed into to the main Husha (hut). A corner of insanity inside the insanity. Hills of pillows, small matreses, tables and a place to gather, relax and to come in focus.&#10;If you will desire for some snorkeling, we will take you to a hypnotizing journey in the coral reef, where you will meet trippy creatures and sub-marine Baflas.&#10;If, and only if, you will get lucky, you will be crowned as a real Sheikh, and you will be able to enjoy everything that unlimited oil and black coffee can offer. This year, our sheikhs will dominate the whole Playa!&#10;And of course, you are more than welcome to dare yourself, how Hafla are you??!!! Belly dancing, drumming, unlimited Baflas, and a lot of other pleasures!",
+      "status": "Open",
+      "fullName": "נמרוד גפן",
+      "phone": "052-4522336",
+      "email": "nimrodgeffen1@gmail.com",
+      "facebook_page_url": "nimrod geffen"
+    },
+    {
+      "name_he": "מיצרימונים",
+      "name_en": "Mizrimonim",
+      "desc_he": "אנחנו והקאמפ שלנו לבושים כמו מיצרים ומגישים ערק-רימונים כל יום אחה\"צ לצלילי מוזיקה מדליקה וספאנקינג. אנחנו לא עושים בר-מצוות. אתם הבר-מצווה. פעם גם ענינו לשאלות מכאן המיצרימ-ונים (אה?! אה?!) אבל נגמרו לכם השאלות. אז בואו יהיה שמח אתכם וגם בלעדיכם 3>",
+      "desc_en": "We are higher beings transcended into our current egyptian bodies. We bring a message from the terrain beyond: Arak with pomegranates, good music and a spank now and then is good for the soul.&#10;And soת we serve all of these everyday in the afternoon.&#10;Come connect with us, we'd love to make your time on this perilous earth a lovely one <3",
+      "email": "yam.tal@gmail.com"
+    },
+    {
+      "name_he": "ברןרייט",
+      "name_en": "BurnRight",
+      "desc_he": "בית לחו\"לניקים על הפלאיה והבית של מיצב ה-Tech(No)Drome. המקומות לישראלים נגמרו, כרגע פתוחים רק לחו\"לניקים",
+      "desc_en": "Come discover Midburn with us! We are open to internationals and will be your home on the Israeli Playa",
+      "status": "Open",
+      "fullName": "Yahav Erez",
+      "phone": "543993254",
+      "email": "yehavit@gmail.com",
+      "accept_families": "Yes"
+    },
+    {
+      "name_he": "HOW HOUSE",
+      "name_en": "HOW HOUSE",
+      "desc_he": "&#10;&#10;, HOW HOUSE הוא הבית של כולנו, בו הכל קורה אבל אף אחד לא ידבר על זה.&#10;אחרי שתחלצו נעליים בכניסה ותרוצו עירומים בדשא, תרגישו הכי בבית בעולם.&#10;בבית אפשר להתפרק, לנוח, לעשות כלים, לשאוב אבק ולהתמסר לתחושת הנינוחות היאפית. &#10;אבל מאחורי האידיליה המשפחתית, האווירה המזמינה והדשא הירוק מידיי, רוחשים כוחות אפלים של כיבוש יצרים ותאוות בשרים. &#10;ואז, כשאתם נינוחים, בדיוק כשתשכחו מכל צרות הפלאיה, נשמוט מתחת ישבנכם את השטיח הפרסי המפואר &#10;ונשלח אתכם להתגלגל מבולבלים ומאובקים באזור הדמדומים של חוסר הגשמה עצמית ואבדן עכבות.&#10;",
+      "desc_en": "How House - The camp the is home, inside out.&#10;It’s our home, the place that no one will tell its secrets. Once you leave your shoes at the entrance, you will instantly feel contained. You will choose to rest, to bark,  to dance, to dust or to sex (...well, and you can always start a conversation about the 10 principles…).&#10;While indulging yourself you must also beware - don’t let the soft couch or the green grass mislead you; behind the walls and inside the rooms there are dark forces of lust and seduction.&#10;&#10;And just as you settle down, we pull the Persian carpet from right under your feet, sending you downhill, lost and rolling in playa dust, in self fulfillment and moral breakdown.&#10;We are going to make you wonder how you can possibly escape or what can you do to stay here forever.&#10;"
+    },
+    {
+      "name_he": "הפרפר הטמפל",
+      "name_en": "הפרפר הטמפל",
+      "desc_he": "מחנה תמיכה לבוני הטמפל ולשלל אומנים ללא בית, אנו נציג במחנה את מיצג הפרפר המשלב אומנות ברזל עם תאורה וחווית הפעלה אישית הנותן למפעילו תחושת ריחוף באוויר.",
+      "desc_en": "Temple builders support camp and home to homeless artists, we will host the butterfly exhibit which combines an iron art with lighting and personal operating experience giving the operator a floating in the air expirience.",
+      "status": "Open",
+      "fullName": "מאיר סולומון",
+      "phone": "054-4583800",
+      "email": "meirsolomon1@gmail.com",
+      "facebook_page_url": "https://www.facebook.com/profile.php?id=1033868768",
+      "accept_families": "Yes"
+    },
+    {
+      "name_he": "קמפיות",
+      "name_en": "fairys camp",
+      "desc_he": "קמפ נעים, מקבל, פשוט, לכל גיל לכל אחת ואחד. מייצר סלונים נעימים ומרחבים כדי לשבת ביחד ולהיות",
+      "desc_en": "nice camp' accepting, simple, for all ages, creating comftarball salons and spaces to sit together and be",
+      "status": "Open",
+      "fullName": "ג'ינג'",
+      "phone": "523314616",
+      "email": "reut.ging@gmail.com",
+      "accept_families": "Yes"
+    },
+    {
+      "name_he": "סווט לודג'",
+      "name_en": "Sweat Lodge",
+      "desc_he": "תיקוני אופניים וגוף ביום, סווט לואדג' בלילה",
+      "desc_en": "Bicycle and body repairs by day, sweat lodge at night",
+      "status": "Open",
+      "fullName": "הילה",
+      "phone": "508555418",
+      "email": "Hillagi@post.bgu.ac.il",
+      "accept_families": "Yes"
+    },
+    {
+      "name_he": "רק קפה",
+      "name_en": "Rak Cafe",
+      "desc_he": "ש שאוהבות את זה קטן וחזק יש שאוהבים את זה הרבה ודלוח.&#10;הקאמפ הזה מיועד לאלה שצריכים את המנה היומית של הסמים לאדם העובד שלהם, כן כן קפה.אבל איזה קפה...&#10;אין לנו אווירה מפונפנת, אין מוזיקה מרגיעה ברקע ואצלנו מקבלים רק מנה חזקה של קפאין לדם. ",
+      "desc_en": "We serve it hot, we serve it black and we serve it strong. &#10;That good ol' caffeine shot we grow so addicted to. no cookies, no fancy lounge music just coffee and good coffee.&#10;You want coffee shop environment? go look some one else, we gift only to most hardcore, uncompromising black Java drinkers in the Playa.&#10;"
+    },
+    {
+      "name_he": "עאלק יוגה",
+      "name_en": "Alek yoga",
+      "desc_he": "בוא לרגע, תעצור, תנשום.&#10;בואי להתבונן, לתפוס את מה שקורה. עכשיו. &#10;למתוח את הגוף, להתחזק, להשתחרר, להתאזן.&#10;תוך כדי תנועה מודעת.&#10;תוך כדי החיים.&#10;תוך כדי השקט והרעש.&#10;בין החברים.&#10;בפשטות. &#10;אנחנו כאן. בדיוק בזמן. &#10;גם מתוך חלום - אנחנו בוראים מציאות. &#10;",
+      "desc_en": "Come for a moment, stop, breathe.&#10;Come look, catch what is happening. now.&#10;Stretch your body, get stronger, be free, be balanced.&#10;During a conscious movement.&#10;While life.&#10;within quiet and noise.&#10;Among friends.&#10;simply.&#10;we are here. just on time.&#10;Even in a dream - we create reality.",
+      "status": "Open",
+      "fullName": "דנה גלנטי",
+      "phone": "504499976",
+      "email": "galanti.dana@gmail.com",
+      "facebook_page_url": "https://www.facebook.com/dana.galanti"
+    },
+    {
+      "name_he": "אין-הולדת",
+      "name_en": "Unbirthday",
+      "desc_he": "מחנה אין-הולדת חוזר!&#10; &#10;יש לכם יום הולדת? מזל טוב!&#10;*אין* לכם יום הולדת?&#10; &#10;עוד יותר טוב!&#10; &#10;בואו לחגוג את האין-הולדת שלכם איתנו!&#10; &#10;חוץ מזה שנשיר לכם שירי לא-יומולדת ונשחק משחקים -- נשמח להציע לכם משקאות מהבר שלנו, נקפיץ אתכם במסיבות מטורפות, ונארח אתכם בעוגה העצומה שלנו!&#10; &#10;*חוויה מתקנת מובטחת לכל מי שחווה מסיבת יומולדת מאכזבת בילדות.",
+      "desc_en": "The Unbirthday Camp is back!&#10; &#10;Is it your birthday today? Congratulations!&#10;Is it *not* your birthday?&#10;&#10;Even better!&#10;&#10;Come celebrate your un-birthday with us.&#10;&#10;Other than singing un-birthday songs and play games – we would love to offer you drinks from our bar, have you dancing at our crazy parties, and chill out in our huge Unbirthday Cake!&#10; &#10;*Closure guaranteed to anybody who has had traumatizing birthday parties in their childhood. "
+    },
+    {
+      "name_he": "פאזיוואזי",
+      "name_en": "FuzzyWuzzy",
+      "desc_he": "נוצץ ופרוותי",
+      "desc_en": "fury and shiny"
+    },
+    {
+      "name_he": "ההצגה",
+      "name_en": "The Show",
+      "desc_he": "על גדות הפלאיה תופיע במה ענקית, וילון אדום, מסך עולה, זרקורים, . חברי הקהילה מוזמנים לקחת חלק בהצגה שהיא הקמפ 24\\6. הכניסה לקמפ מאחורי הקלעים, דרך חדר ההלבשה, בחרו לכם דמות, תלבושת, מבטא, סיפור חיים, או בואו ככה בלי מסכות. טקסטים מפתיעים יחכו לאמיצים שלא באו מוכנים. פיק ברכיים קל, צייס'ר מראה, שורה. &#10;ובכלל, האינטראקציה בקמפ כולו תהיה חלק מההצגה (דמויות מרכזיות כבר לוהקו וישתתפו באופן ספונטני),יפרצו, יגרשו שחקנים סוררים, יהיה מצחיק, יהיה דרמטי. בשעות הקטנות של הלילה, הבמה תהיה פתוחה לדיאלוגים שלכם, טקסטים ותחפושת יחכו לכם בין הכריות ובמקומות מפתיעים. &#10;בתכנייה: פרומפנס של חברי הקמפ, סדנת אימפרוביזציה, ערב משוררים שיכורים, ערב וידיים מהוגינה, מסיבה ונציאנית, ערב עיניים עצומות לרווחה, בכניאליה, מסיבת חיות, מלולי קופים (סדנת ג'יבריש אבל לא בהכרח), ערב פנטומימה, הופעת מחול, תזמורת תצטרף לפעמים שהם יהיו במוד, ערב גבינות ויין, ערב ריקודים סלוניים. פרטיים טכניים: אנחנו מתכוונים להקים את הבמה עם הוילון האדום (8 מטר) בקדמת הקמפ בראשה יהיה לדים טירוף. חדר הלבשה (2*2), סלון הקמפ ישמש לצפייה, השתתפות ,התערבות, אלתורים.",
+      "desc_en": "The Show"
+    },
+    {
+      "name_he": "שליחות אלוהית",
+      "name_en": "Heaven Sent",
+      "desc_he": "הרמס וחבריו שליחי האלים יורדים מהאולימפוס, מחלקים דואר ברחבי הפלאיה ומחברים בין תושבי העיר. בואו לשלוח מכתב, חיבוק, שיר, מחמאה ועוד הפתעות, ולבלות איתנו על פסגת האולימפוס בין העננים.",
+      "desc_en": "Hermes and his divine messenger buddies are steeping down from the Olympus to distribute post throughout the Playa and connect between midburn's citizens. come over and send a letter, a hug, a compliment, and many more surprises, and hang out with us between the clouds on the top of the Olympus.",
+      "status": "Open",
+      "fullName": "מיטל",
+      "phone": "585058530",
+      "email": "meitalrots@gmail.com"
+    },
+    {
+      "name_he": "וינסנט-ואן קאמפ",
+      "name_en": "vincent-van camp",
+      "desc_he": "ויסנט -ואן קאמפ הוא מחנה שנולד מתוך האהבה והעיסוק לתחומי האומנות הטהורה והנאורה.&#10;המחנה יציע חלל יצירה שישרה אוירה של סטודיו רנסאנסי ומסע בזמן אל תקופה אחרת. צבעי זהב וארגמן, ריחות קטורת ויין, צלילי שאנסונים וסימפוניות של באך ומוצארט.&#10;הקאמפ יציע סדנאות ציור במתחם סגור שיוגר מראש, יעוצב כסטודיו, יכיל קני ציור וחומרים ליצירה.הסדנאות יכללו מודל עירום, טבע דומם, ציור נוף, ציור חופשי, קומפוזציה ועוד. נציע יצירה בחומרים שונים- פחם, אקריליק, גואש, עיפרון/צבעי עיפרון, פנדה, צבעי מים וכו'.&#10;בנוסף להתשתתפות בסדנאות למבקרים תהיה אפשרות לשמש גם כמודל עירום או חצי עירום.&#10;הלגיטימציה להסיר את הבגדים בפני קהל אוהב ומחבק היא חוויה משחררת ועבור רבים מאיתנו- ראשונית. הסטודיו יאפשר למשתף לחשוף ולהיחשף, להסיר את המחיצות ולאפשר לצייר ולמושא ההשראה שלו להתקרב.&#10;המבקרים יזכו לגלות את הואן-גוך האישי שלהם, את הפיקאסו שחבוי בתוכם, את הפרידה קאלו שמחכה לפרוץ החוצה. הם יעזבו את הקאמפ עם תוצר מיעשה ידם שהוא כל כולו מיצוי וביטוי עולם האישי.&#10;&#10;",
+      "desc_en": "Vincent Van Camp was born out of love of the pure and enlightened art.&#10;The camp will be offering a creative space with the atmosphere of a renaissance studio. Time travel into a different era; Colors of gold and burgundy, smells of incense and wine, sounds of symphonies by Bach and Mozart. A confined area will be designed as a studio with easels, paint and more.  Provided classes will include landscape, still life, nudes, compositions and much more. We will propose creation in different mediums including acrylic, charcoal, paint, pandas, pencils, watercolors etc. The schedule for guided classes and open workshop will be published in advance. &#10;Visitors of the camp will also be invited to participate as full or half full nude models. To have the freedom to remove the clothing in the presence of a loving and embracing crowd is a liberating experience and, for many of us, a primal one. The studio will allow participants to reveal and be revealed, free themselves of barriers and let artist and muse come closer than ever before.&#10;Come discover the Picasso hidden inside you, the Frida Kahlo waiting to burst out. Leave the camp with your own creations that are an expression of your inner self, or choose to leave them as inspiration for others. On the final night, there will be a presentation of art created during the week. Anyone who so desires can present the fruits of his labor to an adoring crowd. &#10;"
+    },
+    {
+      "name_he": "פרי ספיריט",
+      "name_en": "Free Spirit",
+      "desc_he": "“יש מי שרוצה שדברים יקרו, יש מי שמקווה שדברים יקרו ויש מי שגורם לדברים לקרות”&#10;&#10;מחנה קטן של משפחות עם ילדים בגילאי 2-5 שרוצים להפליג איתנו בים האבק והחול.&#10;המחנה בונה מיצב של ספינת יבשה עם שני מפרשים שניתן להפליג בה למקומות שונים ברחבי הפלאיה. &#10;אנחנו מחנה חדש וקטן אבל עם לב ענקי שמציע לילדי הפלאיה לבוא וללמוד להשיט ספינה, לבנות עפיפונים ולייצר חשמל מהרוח.&#10;",
+      "desc_en": "we are a small camp of families with children aged 2-5 who want to sail in the sea of dust and sand.&#10;The camp is building an installation of a land boat with two sails. it can sail to different places around the city.&#10;We are a new and small camp but with a huge heart. WE offer the children of the city to come and learn how to sail a boat, build kites and generate electricity from the wind.",
+      "status": "Open",
+      "fullName": "תכלת",
+      "phone": "507248098",
+      "email": "gtchelet@gmail.com",
+      "accept_families": "Yes"
+    },
+    {
+      "name_he": "ג'חלאבי",
+      "name_en": "Jahlabi",
+      "desc_he": "קמפ ג'חלאבי יארח את פליטי הלילה הסוררים ואת אלה שגם לא, ויפנק אותם בארוחת בוקר קלה של ג'חנון חם באוויר הצונן בשעות הזריחה. כל זאת בליווי של מוזיקת צ'יל להורדת הדופק ולנחיתה רכה לקראת היום החדש הבא עלינו לטובה. במשך אחר הצהריים יחולק מלבי קר שירטיט לכם את בלוטות הטעם שבמקביל ליפסינק באטל סוער על הבמה!",
+      "desc_en": "Jahlaby camp will host the night knights during the sunrise hours and will provide breakfast which will be based on Jahnun (Yemen traditionl food), and chill music to make your landing softer and warmer. In the afternoon cold Malabi will be served while sick lip sync battles will take place on stage  (:"
+    },
+    {
+      "name_he": "סקיסקרייפרז",
+      "name_en": "SKySKrapers",
+      "desc_he": "סניף הדואר של מידברן חוזר השנה - מהיר יותר, עצבני יותר ומאבד יותר.&#10;במאי 2017 סניף הדואר עושה קאמבק. למשך 6 ימים ולילות, נקים במדבר סניף דואר אמיתי ורשמי שייקח את כל תושבי העיר הזמנית למסע צבעוני ומוטרף בנבכי הביורוקרטיה!&#10;בסניף הדואר של מידברן תוכלו לשלוח מכתבים, גלויות, אנשים ומזכרות מהפלאיה – כן כן, מכתבים אמתיים שיגיעו בשלום לכל מקום שתרצו, בתוך מידברן והחוצה!&#10;תוכלו לקבל מכתבים מלאי געגוע מעצמכם, לשלוח מברקים מזמרים, לקבל חבילות מפתיעות מאנשים שמעולם לא פגשתם, לשלם קנסות על פשעים שלא ביצעתם ולקבל את כל המידע שאתם לא צריכים לדעת. וזה לא הכל.&#10;אנחנו קבוצת נשים ואנשים שמקימים קמפ מאז השנה הראשונה של מידברן. אנחנו מבינים דבר או שניים בביורוקרטיה, בעיצוב גלויות ובולים, במילים, במכתבים ובשירים. וגם בחמוצים. אבל זה לא קשור. אנחנו דוורים ודווריות שישנו לנצח את מה שחשבתם על דואר. ועל הצבי. ועל ערק.&#10;",
+      "desc_en": "The notorious post office is coming back to Midburn&#10;In May 2017, for 6 days and nights, we'll establish a real life, formal, desert post office which will take the temporary city residents of Midburn on a colorful and crazy journey into the depths of bureaucracy!&#10;At Midburn's Post Office you'll be able to send letters, postcards and souvenirs from the Playa - indeed, real letters which will arrive safely anywhere you want in Israel or inside the Playa!&#10; You'll be able to receive a love letter from yourself, send singing telegrams, get surprising packages from people you've never met, pay fines for crimes you didn't commit and get all the information you never needed to know. And that's not all.&#10;we have come together, women and men, who know a thing or two about bureaucracy, designing postcards and stamps, words, letters, poems, and some other stuff - and have established the “Post-office” theme camp.&#10;We are the post-men and women who will forever change anything and everything you thought about snail mail. And Araq",
+      "email": "olshers@gmail.com"
+    },
+    {
+      "name_he": "הילדים האבודים",
+      "name_en": "The lost boys",
+      "desc_he": "קמפ באווירה משפחתית של ילדים והורים שלא רוצים להתבגר",
+      "desc_en": "Family atmosphere camp of children and parents who do not want to grow up",
+      "status": "Open",
+      "fullName": "נועה וידר",
+      "phone": "050-2500456",
+      "email": "Contact@noa-v.com",
+      "facebook_page_url": "https://www.facebook.com/groups/1164318940275876/",
+      "accept_families": "Yes"
+    },
+    {
+      "name_he": "מדריך החציל לגלקסיה",
+      "name_en": "The Eggplant's Guide To The Galaxy",
+      "desc_he": "מהי חצילות? חצילות היא תכונה אשר מביאה את הניחן בה לפעול מתוך עצמו, ולא מתוך הלחצים שמופעלים מהסביבה. כתוצאה מכך החציל והחצילה מרגישים בנוח להתהלך בסביבה ולפרוח, כשהם מדביקים בסגול כל מה שבא איתם במגע. החברה המודרנית מבקשת להכניס אותנו לתבניות ומסלולים וכך למעשה גורמת לצמצום ממד החצילות בכל אחת ואחד מאיתנו. אנחנו לא ניתן לה! בואו אלינו בכדי לשחרר את החציל שבכם/ן תוך פיזוז לצלילים אלקטרוניים ומוסיקת עולם שידגדגו לכם את החציל ובזמן שאתם משוטטים/ות (עדיף כמה שיותר לאט) בשדה הפרנזים המנצנצים. אלו מכם/ן שיחפשו רגע לנוח יוכלו להתחצ'ל בחצ'יל, ואלו שיאבדו את הכיוון של המחנה שלהם/ן אחרי התפרעות לילית, יוכלו ללון בהוסטל 'שבעת החצילים'. אה, ומגשי חצילים משגעים על האש יוגשו לכל חציל/ה.",
+      "desc_en": "What is eggplanycy? Eggplantcy is a charachteristic which allows its possesor to act out of it's own pure being, uneffectef by their surroundings. This allows the Eggplant and Eggplantee to feel comfortable to glidw through the world in bloom, while they spread purpleness all over. Modern society tries to put us in boxes and confine us to paths relinquishing our eggplant within. We shall not allow it! Join us to set your eggplant free as you wonder through the valley of the glistening Franzim, dancing to electronic, eclectic and otherworldly sounds that will make your inner eggplant sing. Those of you who will look for a place to chill could find a spot in The Hachil, and the ones who will lose track of their home camp will be happily accommodated by the 'Seven Eggplants' hostel.&#10;Oh, and platters of intoxicating grilled eggplants will be served unsolicited.",
+      "status": "Open",
+      "fullName": "omer kenet",
+      "phone": "586315277",
+      "email": "ronchakirron@gmail.com",
+      "facebook_page_url": "https://www.facebook.com/Eggplantsgalaxy/?__mref=message_bubble"
+    },
+    {
+      "name_he": "בית הפנקייק",
+      "name_en": "IHOP",
+      "desc_he": "חוזרים לשנה נוספת! בזמן שונה ורגוע של היום נגיש אווירת צ'ילאאוט ופנקייקים טבעוניים! מוזיקה, אווירה ומקום להירגע בו. בית הפנקייק - IHOP מזמין אותכם בנוסף לפנקייקים, לחלוק יחד חוויה מיוחדת של אמבט אדים בסאונה הנוחה שלנו, חוויה שתרענן ותמריץ את גופכם ונפשכם! האווירה, האנשים, הפנקייקים והסאונה כולם יחד  יעזרו  לכם להחזיר כוחות מחודשים  כשתצאו חזרה לפלאיה להמשך  חווית המידברן.",
+      "desc_en": "Back for another year! on different time of the day we’ll be serving chill-out atmosphere and vegan pancakes … music, morale and a spot to relax in.&#10;IHOP welcomes visitors to share a steam bath experience in our steam room. You will feel comfortable as if you were at home. Refresh and reinvigorate your body and soul while you are here. Your health and wellness will be upgraded on your way out to the Playa.&#10;"
+    },
+    {
+      "name_he": "פיוצ׳וריזן",
+      "name_en": "FuturiZen",
+      "desc_he": "קמפ שהוא משפחה, משפחה שהיא קהילה, קהילה שהיא אנשים. &#10;אנחנו מתייחסים למידברן כ\"תירוץ\" ליצור יחד והשנה מתנתנו לפלאיה תהיה מנהרת האנושות, חלל על חושי, אשר יוביל את הנכנס מהג'ונגל, לתקופת העץ המעובד, דרך התעשייה והפלסטיק, אל העתיד....שם יחכה חלל היצירתיות הנכסף, המקום המושלם לשיחה ויצירה. &#10;&#10;הקמפ כולו הוא מיצב אמנות, וכדי להיות ככזה אנו מתנהלים לאורך כל השנה, מפגשים של פעמיים בחודש לפחות, כשההכרות והפאן של חברי הקמפ - היא מטרתו הראשית. &#10;",
+      "desc_en": "FuturiZen is a camp for creative people, that wish to take part at the proccess of building a community",
+      "status": "Open",
+      "fullName": "גיא אלחדד",
+      "phone": "527884466",
+      "email": "guyelhadad@gmail.com",
+      "facebook_page_url": "https://www.facebook.com/groups/FuturiZen/"
+    },
+    {
+      "name_he": "חברבורות",
+      "name_en": "Leo Stripes",
+      "desc_he": "חברבורות של תשוקה מדבר על הנמר שבך!  מחנה שיהפוך את העולם למנומר יותר !",
+      "desc_en": "Stripes of passion! Bring out the tiger in you!",
+      "status": "Open",
+      "fullName": "שפיץ ג'ן",
+      "phone": "526974975",
+      "email": "jane.shpits@gmail.com",
+      "accept_families": "Yes"
+    },
+    {
+      "name_he": "שלאפי'S קרקס",
+      "name_en": "Cirque du Shalpy",
+      "desc_he": "אנחנו מחנה קרקסי, צבעוני ובעיקר מאושר.&#10;אצלנו תוכלו להתעופף כמו ציפור על הטישו, להרגיש כמו בלרינה על העמוד, לגא'גלג מכל הבא ליד, להתהלך על חבל או סתם לשבת על הפוף ולהביט בחיוך על העולם.",
+      "desc_en": "We are a bright circus camp, colorful and mostly happy.&#10;With us you can fly like a bird on the silks, feel like a ballerina on a pole, juggle whatever comes in hand, walk on a rope, or just simply sit on a cushion with a great smile and stare at the world."
     }
   ]
 }
