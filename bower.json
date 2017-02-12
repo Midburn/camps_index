@@ -1,0 +1,23 @@
+{
+  "name": "camps_index",
+  "homepage": "https://github.com/Midburn/camps_index",
+  "authors": [
+    "Nate Ben"
+  ],
+  "description": "Midburn.org camps index page",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.8",
+    "bootstrap": "~3.3.6",
+    "angular-sanitize": "^1.6.2"
+  }
+}

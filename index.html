@@ -1,127 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="MidburnCampIndexApp">
+<html lang="en" ng-app="MidburnCampIndexApp" ng-cloak>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Stylesheets -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="content/fa.css">
     <link rel="stylesheet" href="content/style.css">
-
-    <!-- Scripts -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/angular/angular.min.js"></script>
-    <script src="app.js"></script>
-
-    <title>Midburn 2016 - Theme Camps Index</title>
+    <title>Midburn 2017 - Theme Camps Index</title>
 </head>
+
 <body>
-
-<div class="container">
-
-    <!-- Headline intro -->
-    <div class="row">
-        <div class="panel panel-heading">
-            Welcome To Midburn 2016 - Theme Camps Index
-        </div>
-    </div>
-
-    <!-- Camps index list 2 in a row -->
-    <div class="row" ng-controller="CampListController">
-        <div class="col-md-12 blog-main">
-            <div class="row">
-                <div id="camp-card" class="col-md-6 col-sm-6" ng-repeat="camp in campData">
-                    <article class="blog-teaser">
-                        <header>
-
-                            <!-- Camp Status -->
-                            <div class="camp-icn">
-                                <span class="camp-icn-open" data-toggle="tooltip"
-                                      title="This camp is open to new members!" ng-show="camp.campIsOpen"></span>
-                                <span class="camp-icn-close" data-toggle="tooltip"
-                                      title="This camp is closed to new members." ng-show="!camp.campIsOpen"></span>
-                            </div>
-
-                            <!-- Camp Avatar/Icon -->
-                            <img ng-src="{{ camp.campAvatar }}" alt="Camp Avatar">
-
-                            <!-- Camp Name -->
-                            <h3>{{ camp.campName }}</h3>
-
-                            <!-- Camp Short Description -->
-                            <div class="meta">
-                                <p>
-                                    {{ camp.campShortDesc }}
-                                </p>
-                            </div>
-                            <hr>
-                        </header>
-
-                        <!-- Camp Full Details (*Collapsed) -->
-                        <div id="campId{{ camp.campId }}" class="body collapse">
-                            <p>
-                                {{ camp.campFullDesc }}
-                            </p>
-                            <p>
-                                <i class="fa fa-external-link fa"></i><a target="_blank" href="{{ camp.campWebsite }}">
-                                {{ camp.campWebsite }}</a>
-                            </p>
-
-                            <div>
-                                <!-- Camp Contact Details -->
-                                <i class="fa fa-heart-o"></i> Contact Us
-                                <ul class="list-group">
-                                    <li class="list-group-item" ng-repeat="con in camp.campContacts">
-                                        {{ $index+1 }}. {{ con.name }} | {{ con.info }}
-                                    </li>
-                                </ul>
-                            </div>
-                            <hr>
+    <div class="container" ng-controller="CampListController">
+        <!-- Headline intro -->
+        <div class="row">
+            <div class="panel panel-heading">
+                Midburn 2017 - Theme Camps Index
+                <p class="panel-body">
+                    This page lists registered theme camps for Midburn 2016. The names and descriptions where supplied by the camps organizers and are under their responsibility.
+                </p>
+            </div>
+            <div class="col-xs-12 camp__search">
+                <input id="search_camp" ng-model="searchCamp" type="text" name="search" value="" placeholder="Serach a camp">
+            </div>
+            <div class="col-xs-12 camp__wrapper" ng-repeat="camp in camps | filter: searchCamp">
+                <div class="camp__info camp__info--card">
+                    <div class="camp__header col-xs-12 col-sm-4">
+                        <h2>{{ camp.name_en }}</h2>
+                        <div class="camp__badges">
+                            <span ng-show="camp.status == 'open'" class="camp__badges--status">New members</span>
+                            <span ng-show="camp.accept_families == 1" class="camp__badges--families">Families</span>
                         </div>
-
-                        <div class="clearfix">
-                            <div class="center-block">
-                                <a href="#" data-toggle="collapse" data-target="#campId{{ camp.campId }}"
-                                   class="btn btn-default">
-                                    Read more
-                                </a></div>
+                        <div class="camp__links">
+                            <a href="{{ camp.facebook_page_url }}" target="_blank">Facebook Page</a>
                         </div>
-                    </article>
+                    </div>
+                    <div class="camp__description col-xs-12 col-sm-8">
+                        <p>{{ camp.desc_en }}</p>
+                        <a href="javascript:;" ng-click="_fetchContactPerson(camp.contact_person_id)" data-toggle="collapse" data-target="#camp__contactinfo--{{ camp.id }}" class="btn btn-default">Contact</a>
+                        <div id="camp__contactinfo--{{ camp.id }}" class="camp__contactinfo collapse">
+                            <ul>
+                                <li>Name: <b>{{ fullName }}</b></li>
+                                <li>Email: <b>{{ email }}</b></li>
+                                <li>Phone: <b>{{ phone }}</b></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <footer>
-        <div class="wrapper">
-            <div class="row col-md-12">
-                <span class="logo col-xs-6"> © 2014-2016 Midburn Abracadabra</span>
-                <ul class="links col-xs-6">
-                    <!--<a href="" target="_blank"><li> </li></a>-->
-                    <a href="http://midburn.org/en/" target="_blank">
-                        <li>The Website</li>
-                    </a>
-                    <a href="http://midburn.org/en-event/" target="_blank">
-                        <li>The Event</li>
-                    </a>
-                    <a href="http://midburn.org/en-ten-principles/" target="_blank">
-                        <li>The Ten Principles</li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
-</div>
-
-<script>
-    $(document).ready(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-    });
-</script>
-
+    <!-- Scripts -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>

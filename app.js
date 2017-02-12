@@ -1,76 +1,28 @@
-/**
- * Created by Nate on 03-Jan-16.
- */
-
 var app = angular.module('MidburnCampIndexApp', []);
 
-app.controller('CampListController', function ($scope) {
+app.controller('CampListController', function($scope, $http) {
+    var API_URL = 'http://54.194.247.12';
 
-    //var post_GetCamps = {
-    //    method: 'POST',
-    //    url: '/',
-    //    contentType: 'application/json',
-    //    dataType: 'json',
-    //    data: '{}'
-    //}
-    //
-    //$http(post_GetCamps).then(function (data) {
-    //
-    //    // success
-    //    console.log("Data: " + data);
-    //
-    //}, function () {
-    //    // failure
-    //    console.log("Error: failed to init new game");
-    //});
+    function _getCamps() {
+        $http.get(API_URL + '/camps_published').then(function(res) {
+            $scope.camps = res.data.published_camps;
+        }).catch(function(err) {
+            alert('No camps found.');
+        });
+    }
 
-    var CampData = [{
-        campId: 1,
-        campStatus: 0,
-        campName: 'Sunrise Kingdom',
-        campShortDesc: 'We\'re a sound camp at MidBurn, playing tech house, deep house and techno.',
-        campFullDesc: 'Sunrise Kingdom is a group of Israeli burners (Burning Man addicts...) dedicates to bring you the music and sounds we love. Started for the 2014 Midburn, the Israeli Burning Man official regional, and representing the playa spirit in other events too.',
-        campWebsite: 'http://soundcloud.com/sunrise-kingdom',
-        campAvatar: 'content/sunrise_kingdom.jpg',
-        campContacts: [
-            {
-                id: 1,
-                name: 'Sivan',
-                info: 'Sivan@burncamp.com'
-            },
-            {
-                id: 1,
-                name: 'David',
-                info: 'David@mycampmail.com'
-            }
-        ],
-        campIsOpen: true
-    },
-        {
-            campId: 2,
-            campStatus: 0,
-            campName: 'Some Other Camp',
-            campShortDesc: 'We\'re a bar camp at MidBurn, dressing as clowns & serving drinks to everyone.',
-            campFullDesc: 'Wow!',
-            campWebsite: 'http://soundcloud.com/sunrise-kingdom',
-            campAvatar: 'content/camp-default-avatar.png',
-            campContacts: [
-                {
-                    id: 1,
-                    name: 'Sivan',
-                    info: 'Sivan@burncamp.com'
-                },
-                {
-                    id: 1,
-                    name: 'David',
-                    info: 'David@mycampmail.com'
-                }
-            ],
-            campIsOpen: false
-        },
-    ]
-
-    $scope.campData = CampData;
-    $scope.campContacts = CampData.campContacts;
-
+    $scope._fetchContactPerson = function(id) {
+        $http.get(API_URL + '/camps_contact_person/' + id).then(function(res) {
+            user_info = res.data.user;
+            $scope.fullName = user_info.fullName;
+            $scope.email = user_info.email;
+            $scope.phone = user_info.phone;
+        }).catch(function(err) {
+            alert('No contacts found.');
+        });
+    }
+    // $scope.changeOrderBy = function(orderByValue) {
+    //     $scope.orderCamps = orderByValue;
+    // }
+    _getCamps();
 });
