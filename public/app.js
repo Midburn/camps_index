@@ -3,7 +3,7 @@ var app = angular.module('MidburnCampIndexApp', ['ngSanitize']);
 app.controller('CampListController', function($scope, $http) {
     var API_URL = 'http://54.194.247.12';
 
-    function _getCamps() {
+    function _fetchCampsAPI() {
         $http.get(API_URL + '/camps_published').then(function(res) {
             $scope.camps = res.data.published_camps;
         }).catch(function(err) {
@@ -21,8 +21,8 @@ app.controller('CampListController', function($scope, $http) {
             alert('No contacts found.');
         });
     }*/
-    //_getCamps();
-  
+    //_fetchCampsAPI();
+
     function _getCampsJSON() {
         $http.get('/data.json').then(function(res) {
             $scope.camps = res.data.ToPublish;
@@ -32,4 +32,8 @@ app.controller('CampListController', function($scope, $http) {
     }
 
     _getCampsJSON();
+});
+
+app.directive('camps-index', function() {
+    return {restrict: 'E', templateUrl: 'templates/list.html', replace: true, controller: 'CampListController'}
 });

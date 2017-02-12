@@ -18,7 +18,7 @@
         <!-- Headline intro -->
         <div class="row"><br>
             <div class="col-xs-12 camp__search">
-                <input id="search_camp" ng-model="searchCamp" type="text" name="search" value="" placeholder="Serach a camp">
+                <input id="search_camp" ng-model="searchCamp" type="text" name="search" value="" placeholder="Serach a camp" autofocus="true">
             </div>
             <div class="col-xs-12 camp__wrapper" ng-repeat="camp in camps | filter: searchCamp">
                 <div class="camp__info camp__info--card">
@@ -29,7 +29,7 @@
                             <span ng-show="camp.accept_families == 'Yes'" class="camp__badges--families">Accept families</span>
                         </div>
                         <div class="camp__links">
-                            <a ng-show="camp.facebook_page_url != null" href="{{ camp.facebook_page_url }}" target="_blank">Facebook Page</a>
+                            <a ng-show="camp.facebook_page_url != null" href="{{ camp.facebook_page_url.replace('https\/\/','https:\/\/') }}" target="_blank">Facebook Page</a>
                         </div>
                     </div>
                     <div class="camp__description col-xs-12 col-sm-8">
