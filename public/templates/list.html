@@ -1,1 +1,42 @@
-its a list !
+<div class="container" ng-controller="CampListController" data-ng-init="init()">
+    <!-- Headline intro -->
+    <div class="row"><br>
+        <div class="col-xs-12 camp__search">
+            <input id="search_camp" ng-model="searchCamp" type="text" name="search" value="" placeholder="{{ labels.search_placeholder }}" autofocus="true">
+        </div>
+        <div class="col-xs-12 camp__filters xs-text-center">
+            <button ng-click="sortBy('name_en')"><i class="fa fa-sort-alpha-asc" aria-hidden="true"></i>{{ labels.contact.name }}</button>
+            <button ng-click="sortBy('status')">{{ labels.members }}</button>
+            <button ng-click="sortBy('accept_families')">{{ labels.families }}</button>
+        </div>
+        <div class="col-xs-12 camp__wrapper" ng-repeat="camp in camps | filter: searchCamp | orderBy:propertyName:reverse" data-aos="fade" data-aos-once="true">
+            <div class="camp__info camp__info--card">
+                <div class="camp__header col-xs-12 col-sm-4">
+                    <h2 id="{{ camp.name_en.split(' ').join('') | lowercase }}">{{ lang == 'en' ? camp.name_en : camp.name_he }}</h2>
+                    <div class="camp__badges">
+                        <span ng-show="camp.status == 'Open'" class="camp__badges--status">{{ labels.members }}</span>
+                        <span ng-show="camp.accept_families == 'Yes'" class="camp__badges--families">{{ labels.families }}</span>
+                    </div>
+                    <div class="camp__links">
+                        <a ng-show="camp.facebook_page_url != null" href="{{ camp.facebook_page_url.replace('https\/\/','https:\/\/') }}" target="_blank">{{ labels.homepage }}</a>
+                    </div>
+                </div>
+                <div class="camp__description col-xs-12 col-sm-8">
+                    <p ng-if="lang == 'en'" ng-bind-html="camp.desc_en"></p>
+                    <p ng-if="lang == 'he'" ng-bind-html="camp.desc_he"></p>
+                    <a ng-show="camp.status == 'Open'" href="javascript:;" ng-click="_fetchContactPerson(camp.contact_person_id)" data-toggle="collapse" data-target="#camp__contactinfo--{{ $index }}" class="btn btn-default">{{ labels.contact.btn }}</a>
+                    <div id="camp__contactinfo--{{ $index }}" class="camp__contactinfo collapse">
+                        <ul>
+                            <li ng-show="camp.fullName">{{ labels.contact.name }}: <b>{{ camp.fullName || 'n/a' }}</b></li>
+                            <li ng-show="camp.email">{{ labels.contact.email }}: <b>{{ camp.email || 'n/a' }}</b></li>
+                            <li ng-show="camp.phone">{{ labels.contact.phone }}: <b>{{ camp.phone || 'n/a' }}</b></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 text-center">{{ labels.misc.theend }}
+        <a href="#" onclick="$('html, body').animate({scrollTop: 0}, 350);">{{ labels.misc.scrolltop }}</a>
+    </div>
+</div>
