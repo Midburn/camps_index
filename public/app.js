@@ -61,7 +61,7 @@ app.controller('CampListController', function($scope, $http) {
      */
     $scope.sortBy = function(propertyName) {
         // sorting filters for the list
-        $scope.reverse = ($scope.propertyName === propertyName) ? !$scope.reverse : false;
+        $scope.reverse = ($scope.propertyName === propertyName) ? !$scope.reverse : true;
         $scope.propertyName = propertyName;
         $('.camp__wrapper').slice('5').addClass('aos-animate');
     };
