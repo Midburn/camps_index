@@ -4,9 +4,9 @@
  * @author: nate ben
  * @type {angularjs_app}
  */
-var app = angular.module('camps_index', ['ngSanitize']);
+var app = angular.module('camps_index', ['ngSanitize', 'firebase']);
 
-app.controller('CampListController', function($scope, $http) {
+app.controller('CampListController', function($scope, $http, $firebaseArray) {
     var API_URL = 'http://54.194.247.12',
         labels = {
             en: {
@@ -101,11 +101,15 @@ app.controller('CampListController', function($scope, $http) {
          * data fetch JSON file
          * @type {JSON}
          */
-        $http.get('/data.json').then(function(res) {
-            $scope.camps = res.data.ToPublish;
-        }).catch(function(err) {
-            alert('No camps found.');
-        });
+        // $http.get('/data.json').then(function(res) {
+        //     $scope.camps = res.data.ToPublish;
+        // }).catch(function(err) {
+        //     alert('No camps found.');
+        // });
+
+        // get data from Firebase db
+        var ref = firebase.database().ref();
+        $scope.camps = $firebaseArray(ref);
     }
 
     _getCampsJSON();
