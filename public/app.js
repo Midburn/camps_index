@@ -98,8 +98,17 @@ app.controller('CampListController', function($scope, $http, $firebaseArray) {
             // loading animation
             $('#loading_spinner').remove();
         }).catch(function(error) {
-            alert("Error lading camps\n\n---\n:", error);
+            _fetchFromJSON();
         });
+
+        // data JSON fallback
+        function _fetchFromJSON() {
+            $http.get('/data.json').then(function(res) {
+                $scope.camps = res.data.ToPublish;
+            }).catch(function(err) {
+                alert('No camps found.');
+            });
+        }
     }
 
     _getCampsJSON();
