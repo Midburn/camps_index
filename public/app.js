@@ -51,9 +51,7 @@ app.controller('CampListController', function($scope, $http, $firebaseArray) {
     // init function
     $scope.init = function() {
         // init animations-on-scroll effect
-        AOS.init({
-            duration: 300
-        });
+        AOS.init({duration: 300});
     }
 
     /**
@@ -61,7 +59,9 @@ app.controller('CampListController', function($scope, $http, $firebaseArray) {
      */
     $scope.sortBy = function(propertyName) {
         // sorting filters for the list
-        $scope.reverse = ($scope.propertyName === propertyName) ? !$scope.reverse : true;
+        $scope.reverse = ($scope.propertyName === propertyName)
+            ? !$scope.reverse
+            : true;
         $scope.propertyName = propertyName;
         $('.camp__wrapper').slice('5').addClass('aos-animate');
     };
@@ -84,42 +84,27 @@ app.controller('CampListController', function($scope, $http, $firebaseArray) {
         $('.camp__wrapper').slice('5').addClass('aos-animate');
     });
 
-    /*$scope._fetchContactPerson = function(id) {
-        $http.get(API_URL + '/camps_contact_person/' + id).then(function(res) {
-            user_info = res.data.user;
-            $scope.fullName = user_info.fullName;
-            $scope.email = user_info.email;
-            $scope.phone = user_info.phone;
-        }).catch(function(err) {
-            alert('No contacts found.');
-        });
-    }*/
-    //_fetchCampsAPI();
-
     function _getCampsJSON() {
         /**
-         * data fetch JSON file
+         * fetch data from Firebase:Database
          * @type {JSON}
          */
-        // $http.get('/data.json').then(function(res) {
-        //     $scope.camps = res.data.ToPublish;
-        // }).catch(function(err) {
-        //     alert('No camps found.');
-        // });
+        var ref = firebase.database().ref(),
+            camps_array = $firebaseArray(ref);
+        $scope.camps = camps_array;
 
-        // get data from Firebase db
-        var ref = firebase.database().ref();
-        $scope.camps = $firebaseArray(ref);
+        // loading callback
+        camps_array.$loaded().then(function(data) {
+            // loading animation
+            $('#loading_spinner').remove();
+        }).catch(function(error) {
+            alert("Error lading camps\n\n---\n:", error);
+        });
     }
 
     _getCampsJSON();
 });
 
 app.directive('campsList', function() {
-    return {
-        restrict: 'E',
-        templateUrl: 'templates/list.html',
-        replace: true,
-        controller: 'CampListController'
-    }
+    return {restrict: 'E', templateUrl: 'templates/list.html', replace: true, controller: 'CampListController'}
 });
