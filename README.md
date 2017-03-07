@@ -14,7 +14,6 @@ a fallback configured in the code to fetch data from JSON file if DB fails.
 
 ## Usefull links
 
-- [excel-to-json](https://convertexcel.net/excel-to-json)
-- [excel-to-json(alt)](http://www.csvjson.com/json_beautifier)
-- [jsonformatter](https://jsonformatter.curiousconcept.com/)
+- [excel-to-JSON converter](http://www.csvjson.com/json_beautifier)
+- [JSON formatter](https://jsonformatter.curiousconcept.com/)
 - [DATA](https://docs.google.com/spreadsheets/d/1GEgjpISwlYt8dvnGqgtFfJpxPSA3YfHSSEd6lBKdZC8/edit#gid=2022231068)
