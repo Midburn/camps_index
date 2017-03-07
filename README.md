@@ -1,6 +1,6 @@
-# ThemeCamps-Index
+# Camps Index App
 
-Theme camps index page
+Theme camps index page based on AngularJS and Firebase
 
 ## Firebase hosting & database
 
@@ -17,3 +17,4 @@ a fallback configured in the code to fetch data from JSON file if DB fails.
 - [excel-to-json](https://convertexcel.net/excel-to-json)
 - [excel-to-json(alt)](http://www.csvjson.com/json_beautifier)
 - [jsonformatter](https://jsonformatter.curiousconcept.com/)
+- [DATA](https://docs.google.com/spreadsheets/d/1GEgjpISwlYt8dvnGqgtFfJpxPSA3YfHSSEd6lBKdZC8/edit#gid=2022231068)
