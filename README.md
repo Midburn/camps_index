@@ -1,6 +1,10 @@
 # Camps Index App
 
-Theme camps index page based on AngularJS and Firebase
+Theme camps index page based on AngularJS and Firebase as backend.
+
+## Start
+
+Clone the repo, and use simple http server on `/public` folder. that's it!
 
 ## Firebase hosting & database
 
