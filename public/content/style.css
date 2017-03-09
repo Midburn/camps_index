@@ -115,6 +115,10 @@ body {
     padding: 8px;
 }
 
+.camp__description .desc {
+    white-space: pre-wrap;
+}
+
 .camp__info .camp__contactinfo {
     padding: 12px 0 0;
 }

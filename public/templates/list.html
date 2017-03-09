@@ -22,8 +22,8 @@
                     </div>
                 </div>
                 <div class="camp__description col-xs-12 col-sm-8">
-                    <p ng-if="lang == 'en'" ng-bind-html="camp.desc_en"></p>
-                    <p ng-if="lang == 'he'" ng-bind-html="camp.desc_he"></p>
+                    <p ng-if="lang == 'en'" class="desc">{{ camp.desc_en }}</p>
+                    <p ng-if="lang == 'he'" class="desc">{{ camp.desc_he }}</p>
                     <a ng-show="camp.status == 'open'" href="javascript:;" ng-click="_fetchContactPerson(camp.contact_person_id)" data-toggle="collapse" data-target="#camp__contactinfo--{{ $index }}" class="btn btn-default">{{ labels.contact.btn }}</a>
                     <div id="camp__contactinfo--{{ $index }}" class="camp__contactinfo collapse">
                         <ul>

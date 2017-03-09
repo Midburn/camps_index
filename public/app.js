@@ -4,7 +4,7 @@
  * @author: nate ben
  * @type {angularjs_app}
  */
-var app = angular.module('camps_index', ['ngSanitize', 'firebase']);
+var app = angular.module('camps_index', ['firebase']);
 
 app.controller('CampListController', function($scope, $http, $firebaseObject) {
     var API_URL = 'http://54.194.247.12',
