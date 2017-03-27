@@ -68,50 +68,49 @@ app.controller('CampListController', function($scope, $http, $firebaseObject) {
         $('.camp__wrapper').slice('5').addClass('aos-animate');
     };
 
-    // serach callback
+    // search callback
     $scope.$watch('searchCamp', function() {
         $('.camp__wrapper').slice('5').addClass('aos-animate');
     });
 
     function fetchCampsData() {
+        // function _fetchFromSparkAPI() {
+        //     /**
+        //      * data fetch from Spark API
+        //      * @type {JSON}
+        //      */
+        //     $http.get(API_URL + '/camps_published').then(function(res) {
+        //         $scope.camps = res.data.published_camps;
+        //     }).catch(function(err) {
+        //         alert('No camps found.');
+        //     });
+        // }
 
-        function _fetchFromSparkAPI() {
-            /**
-             * data fetch from Spark API
-             * @type {JSON}
-             */
-            $http.get(API_URL + '/camps_published').then(function(res) {
-                $scope.camps = res.data.published_camps;
-            }).catch(function(err) {
-                alert('No camps found.');
-            });
-        }
-
-        (function _fetchFromFirebase() {
-            /**
-             * fetch data from Firebase:Database
-             * @type {JSON}
-             */
-            var ref = firebase.database().ref('ToPublish'),
-                data_object = $firebaseObject(ref);
-
-            // loading callback
-            data_object.$loaded().then(function(data) {
-                // bind data to DOM
-                var camps = []
-                angular.forEach(data, function(key, value) {
-                    camps.push({
-                        key: value
-                    })
-                })
-                $scope.camps = camps;
-
-                // loading animation
-                $('#loading_spinner').remove();
-            }).catch(function(error) {
-                _fetchFromJSON();
-            });
-        })()
+        // (function _fetchFromFirebase() {
+        //     /**
+        //      * fetch data from Firebase:Database
+        //      * @type {JSON}
+        //      */
+        //     var ref = firebase.database().ref('ToPublish'),
+        //         data_object = $firebaseObject(ref);
+        // 
+        //     // loading callback
+        //     data_object.$loaded().then(function(data) {
+        //         // bind data to DOM
+        //         var camps = []
+        //         angular.forEach(data, function(key, value) {
+        //             camps.push({
+        //                 key: value
+        //             })
+        //         })
+        //         $scope.camps = camps;
+        // 
+        //         // loading animation
+        //         $('#loading_spinner').remove();
+        //     }).catch(function(error) {
+        //         _fetchFromJSON();
+        //     });
+        // })()
 
         function _fetchFromJSON() {
             /**
@@ -124,6 +123,8 @@ app.controller('CampListController', function($scope, $http, $firebaseObject) {
                 alert('No camps found.');
             });
         }
+        
+        _fetchFromJSON();
     }
 
     fetchCampsData();
