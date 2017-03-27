@@ -119,6 +119,7 @@ app.controller('CampListController', function($scope, $http, $firebaseObject) {
              */
             $http.get('/data.json').then(function(res) {
                 $scope.camps = res.data.ToPublish;
+                $('#loading_spinner').fadeOut() // hide loading animation
             }).catch(function(err) {
                 alert('No camps found.');
             });
