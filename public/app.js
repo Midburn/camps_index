@@ -4,10 +4,10 @@
  * @author: nate ben
  * @type {angularjs_app}
  */
-var app = angular.module('camps_index', ['ngSanitize', 'firebase']);
+var app = angular.module('camps_index', ['ngSanitize']);
 
-app.controller('CampListController', function($scope, $http, $firebaseObject) {
-    var API_URL = 'http://sparkstaging.midburn.org/api/v1/camps/published',
+app.controller('CampListController', function($scope, $http) {
+    var API_URL = '',
         labels = {
             en: {
                 search_placeholder: 'Serach a camp',
@@ -48,7 +48,6 @@ app.controller('CampListController', function($scope, $http, $firebaseObject) {
     $scope.lang = lang;
     $scope.labels = labels[lang];
 
-    // init function
     $scope.init = function() {
         // init animations-on-scroll effect
         AOS.init({
@@ -65,28 +64,32 @@ app.controller('CampListController', function($scope, $http, $firebaseObject) {
             !$scope.reverse :
             true;
         $scope.propertyName = propertyName;
-        $('.camp__wrapper').slice('5').addClass('aos-animate');
+        updateView()
     };
 
     // search callback
     $scope.$watch('searchCamp', function() {
-        $('.camp__wrapper').slice('5').addClass('aos-animate');
+        updateView()
     });
+
+    function updateView() {
+      $('.camp__wrapper').slice('5').addClass('aos-animate');
+    }
 
     (function fetchCampsData() {
         function _fetchFromSparkAPI() {
             /**
-             * data fetch from Spark API
+             * fetch data from Spark API
              * @type {JSON}
              */
             $http.get(API_URL).then(function(res) {
-                if (res.data.quantity === 0) {
-                  alert('Zero camps found.');
-                } else {
-                  $scope.camps = res.data.camps;
+                if (res.camps.length) {
+                  $scope.camps = res.camps;
+                  $('#loading_spinner').fadeOut() // hide loading animation
                 }
             }).catch(function(err) {
-                alert('Error fetching camps.');
+                // fallback to JSON file
+                _fetchFromJSON()
             });
         }
 
