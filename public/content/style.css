@@ -96,7 +96,6 @@ body {
 }
 
 .camp__info .camp__header .camp__badges span {
-    background-color: #BBDEFB;
     color: #2f2a2a;
     border-radius: 2px;
     min-height: 70px;
@@ -105,10 +104,6 @@ body {
 
 .camp__info .camp__header .camp__links {
     padding: 1em 0;
-}
-
-.camp__info .camp__header .camp__badges .camp__badges--status {
-    background-color: #64DD17;
 }
 
 .camp__info .camp__description {

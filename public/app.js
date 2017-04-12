@@ -13,6 +13,7 @@ app.controller('CampListController', function($scope, $http) {
                 search_placeholder: 'Serach a camp',
                 members: 'New members',
                 families: 'Accept families',
+                support_art: 'Support Art',
                 homepage: 'Homepage',
                 contact: {
                     btn: 'Contact',
@@ -29,6 +30,7 @@ app.controller('CampListController', function($scope, $http) {
                 search_placeholder: 'חיפוש מחנה',
                 members: 'פתוח למצטרפים',
                 families: 'מקבל משפחות',
+                support_art: 'תומך אומנות',
                 homepage: 'דף הבית',
                 contact: {
                     btn: 'יצירת קשר',
@@ -83,8 +85,8 @@ app.controller('CampListController', function($scope, $http) {
              * @type {JSON}
              */
             $http.get(API_URL).then(function(res) {
-                if (res.camps.length) {
-                  $scope.camps = res.camps;
+                if (res.data.camps.length) {
+                  $scope.camps = res.data.camps;
                   $('#loading_spinner').fadeOut() // hide loading animation
                 }
             }).catch(function(err) {
@@ -105,7 +107,8 @@ app.controller('CampListController', function($scope, $http) {
                 alert('No camps found.');
             });
         }
-        _fetchFromSparkAPI();
+        // _fetchFromSparkAPI();
+        _fetchFromJSON()
     })()
 });
 

@@ -12,24 +12,25 @@
         <div class="col-xs-12 camp__wrapper" ng-repeat="camp in camps | filter: searchCamp | orderBy:propertyName:reverse" data-aos="fade" data-aos-once="true">
             <div class="camp__info camp__info--card">
                 <div class="camp__header col-xs-12 col-sm-4">
-                    <h2 id="{{ camp.name_en.split(' ').join('') | lowercase }}">{{ lang == 'en' ? camp.name_en : camp.name_he }}</h2>
+                    <h2 id="{{ camp.name_en.split(' ').join('') | lowercase }}">{{ lang == 'en' ? camp.camp_name_en : camp.camp_name_he }}</h2>
                     <div class="camp__badges">
-                        <span ng-show="camp.status == 'open'" class="camp__badges--status">{{ labels.members }}</span>
-                        <span ng-show="camp.accept_families == 'yes'" class="camp__badges--families">{{ labels.families }}</span>
+                        <span ng-show="camp.status == 'open'" class="bg-info">{{ labels.members }}</span>
+                        <span ng-show="camp.accept_families" class="bg-success">{{ labels.families }}</span>
+                        <span ng-show="camp.support_art" class="bg-danger">{{ labels.support_art }}</span>
                     </div>
                     <div class="camp__links">
                         <a ng-show="camp.facebook_page_url != null" href="{{ camp.facebook_page_url.replace('https\/\/','https:\/\/') }}" target="_blank">{{ labels.homepage }}</a>
                     </div>
                 </div>
                 <div class="camp__description col-xs-12 col-sm-8">
-                    <p ng-if="lang == 'en'" ng-bind-html="camp.desc_en"></p>
-                    <p ng-if="lang == 'he'" ng-bind-html="camp.desc_he"></p>
-                    <a ng-show="camp.status == 'open'" href="javascript:;" ng-click="_fetchContactPerson(camp.contact_person_id)" data-toggle="collapse" data-target="#camp__contactinfo--{{ $index }}" class="btn btn-default">{{ labels.contact.btn }}</a>
+                    <p ng-if="lang == 'en'" ng-bind-html="camp.camp_desc_en"></p>
+                    <p ng-if="lang == 'he'" ng-bind-html="camp.camp_desc_he"></p>
+                    <a ng-show="camp.status == 'open'" href="javascript:;" data-toggle="collapse" data-target="#camp__contactinfo--{{ $index }}" class="btn btn-default">{{ labels.contact.btn }}</a>
                     <div id="camp__contactinfo--{{ $index }}" class="camp__contactinfo collapse">
                         <ul>
-                            <li ng-show="camp.fullName">{{ labels.contact.name }}: <b>{{ camp.fullName || 'n/a' }}</b></li>
-                            <li ng-show="camp.email">{{ labels.contact.email }}: <b>{{ camp.email || 'n/a' }}</b></li>
-                            <li ng-show="camp.phone">{{ labels.contact.phone }}: <b>{{ camp.phone || 'n/a' }}</b></li>
+                            <li ng-show="camp.contact_person_name">{{ labels.contact.name }}: <b>{{ camp.contact_person_name || 'n/a' }}</b></li>
+                            <li ng-show="camp.contact_person_email">{{ labels.contact.email }}: <b>{{ camp.contact_person_email || 'n/a' }}</b></li>
+                            <li ng-show="camp.contact_person_phone">{{ labels.contact.phone }}: <b>{{ camp.contact_person_phone || 'n/a' }}</b></li>
                         </ul>
                     </div>
                 </div>
