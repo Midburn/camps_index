@@ -1,0 +1,10 @@
+build:
+  pipeline:
+  - run: add_resource
+    parameters:
+      name: camps_2018
+      url: ./camps2018.csv
+#      format: csv
+#      headers: 1
+  - run: stream_remote_resources
+  - run: build

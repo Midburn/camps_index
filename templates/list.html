@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ labels.title }}</title>
+    <!-- Assets -->
+    <link rel="stylesheet" href="content/fa.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="content/style.css">
+    <link rel="stylesheet" href="content/loading-spinner.css" />
+</head>
+
+<body>
+    <div class="container">
+    <div class="row"><h3 {% if lang=='he' %}dir="rtl"{%  endif %}>{{ labels.title }}</h3></div>
+    <div class="row"><br>
+            {% for camp in camps %}
+            <div class="col-xs-12 camp__wrapper" data-aos="fade" data-aos-once="true">
+                <div class="camp__info camp__info--card">
+                    <div class="camp__header col-xs-12 col-sm-4">
+                        <h2 id="{{ camp.id }}">{{ camp.name }}</h2>
+                        <div class="camp__badges">
+                            {% if camp.status == 'open' %}<span class="bg-info">{{ labels.members }}</span>{%  endif %}
+                            {% if camp.accept_families == 'open' %}<span class="bg-success">{{ labels.families }}</span>{%  endif %}
+                            {% if camp.support_art == 'open' %}<span class="bg-danger">{{ labels.support_art }}</span>{%  endif %}
+                        </div>
+                    </div>
+                    <div class="camp__description col-xs-12 col-sm-8">
+                        <h3>{{ labels.contact_details }}</h3>
+                        <dl>
+                            <dt>{{ labels.contact_name }}</dt>
+                            <dd>{{ camp.leader_name }}</dd>
+                            <dt>{{ labels.contact_email }}</dt>
+                            <dd>{{ camp.leader_email }}</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+
+</html>
+
+
