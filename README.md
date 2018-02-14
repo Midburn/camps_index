@@ -7,6 +7,8 @@ Theme camps index page based static html pages.
 
 Clone the repo, and use simple http server on `/public` folder. that's it!
 
+(Or, just go to the [Midburn 2018 camps index site](https://storage.googleapis.com/midburn-public/camps2018/index.html))
+
 
 ## Develop
 
@@ -58,3 +60,16 @@ You need permissions to midburn's google cloud, then you can run:
 `./deploy.sh`
 
 updated site is available at https://storage.googleapis.com/midburn-public/camps2018/index.html
+
+
+## Making changes directly in the html files, skipping the build
+
+You can edit the html files in public directory, then you just have to copy the updated files to google storage
+
+You will need permissions to the midburn google cloud account.
+
+Assuming you made changes to public/index_en.html, copy the updated file:
+
+```
+gsutil cp public/index_en.html gs://midburn-public/camps2018/
+```
