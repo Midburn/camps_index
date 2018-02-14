@@ -2,3 +2,5 @@
 .firebaserc
 database.rules.json
 firebase.json
+.idea
+.dpp

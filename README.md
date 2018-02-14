@@ -5,11 +5,10 @@ Theme camps index page based static html pages.
 
 ## Start
 
-Clone the repo, and use simple http server on `/dist` folder. that's it!
+Clone the repo, and use simple http server on `/public` folder. that's it!
 
 
 ## Develop
-
 
 Install python 3.6 and pipenv (following works on latest Ubuntu):
 
@@ -50,3 +49,12 @@ where c.event_id='MIDBURN2018'
 and c.main_contact = u.user_id
 and c2.camp_leader_email = u.email
 ```
+
+
+## Deploying
+
+You need permissions to midburn's google cloud, then you can run:
+
+`./deploy.sh`
+
+updated site is available at https://storage.googleapis.com/midburn-public/camps2018/index.html
