@@ -2,4 +2,4 @@
 
 pipenv run dpp run ./build
 
-gsutil -m cp -r -a public-read public gs://midburn-public/camps2018
+# gsutil -m cp -r -a public-read public gs://bucket/path
