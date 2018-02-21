@@ -43,11 +43,9 @@ Camps index should be available at http://localhost:8000/
 Run the following query and export to CSV using adminer:
 
 ```
-select c.camp_name_he, c.camp_name_en, u.email, c2.camp_leader_name
-from camps c, users u, camps_2018 c2
-where c.event_id='MIDBURN2018'
-and c.main_contact = u.user_id
-and c2.camp_leader_email = u.email
+select id, camp_name_he, camp_name_en, camp_desc_he, camp_desc_en, status, web_published, users.email, concat_ws(' ', users.first_name, users.last_name) name
+from camps, users
+where camps.event_id='MIDBURN2018' and camps.__prototype='theme_camp' and camps.status='open' and camps.contact_person_id = users.user_id
 ```
 
 

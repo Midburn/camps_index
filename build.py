@@ -10,8 +10,9 @@ LABELS = {
               "Midburn 2018 - Theme Camps Index"),
     "contact_name": ("שם", "Name"),
     "contact_email": ("אימייל", "Email"),
-    "contact_details": ("פרטי התקשרות", "Contact Details")
-
+    "contact_details": ("פרטי התקשרות", "Contact Details"),
+    "description": ("תיאור", "Description"),
+    "members": ("פתוח להשתתפות", "Participants welcome")
 }
 
 
@@ -33,8 +34,10 @@ def get_camps(lang):
         yield {"index": index,
                "id": camp["camp_name_en"].replace(' ', '').lower(),
                "name": camp["camp_name_{}".format(lang)],
-               "leader_name": camp["camp_leader_name"],
-               "leader_email": camp["email"]}
+               "leader_name": camp["name"],
+               "leader_email": camp["email"],
+               "description": camp.get("camp_desc_{}".format(lang)),
+               "status": camp.get("status")}
 
 
 env = template_functions.get_jinja_env()
