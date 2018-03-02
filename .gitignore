@@ -10,3 +10,4 @@ camps2018.csv
 docker-compose.override.yaml
 camps2018.tsv
 *.bak
+__pycache__
