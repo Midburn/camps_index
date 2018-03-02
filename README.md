@@ -47,17 +47,3 @@ select id, camp_name_he, camp_name_en, camp_desc_he, camp_desc_en, status, web_p
 from camps, users
 where camps.event_id='MIDBURN2018' and camps.__prototype='theme_camp' and camps.status='open' and camps.contact_person_id = users.user_id
 ```
-
-
-## Deploying
-
-You need permissions to midburn's google cloud, then you can run:
-
-`./deploy.sh`
-
-
-## Making changes directly in the html files, skipping the build
-
-You can edit the html files in public directory, then you just have to copy the updated files to google storage
-
-You will need permissions to the midburn google cloud account.

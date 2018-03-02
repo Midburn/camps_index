@@ -11,20 +11,28 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="content/style.css">
     <link rel="stylesheet" href="content/loading-spinner.css" />
+    <link href="ribbons.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 {% if lang=='en' %}
-<a href="https://github.com/Midburn/camps_index">
-    <img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png">
-</a>
+<div class="ribbon left black">
+  <a href="https://github.com/Midburn/camps_index">Fork me on GitHub</a>
+</div>
 {% else %}
-<a href="https://github.com/Midburn/camps_index">
-    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
-</a>
+<div class="ribbon right black">
+  <a href="https://github.com/Midburn/camps_index">Fork me on GitHub</a>
+</div>
 {% endif %}
     <div class="container">
-    <div class="row"><h3 {% if lang=='he' %}dir="rtl"{%  endif %}>{{ labels.title }}</h3></div>
+    <div class="row">
+        {% if lang=='en' %}
+            <h4 style="margin-top:2.5em; margin-left:2.5em;">{{ labels.title }}</h4>
+        {% else %}
+            <h3 style="margin-top:2.5em; margin-right:2.5em;" dir="rtl">{{ labels.title }}</h3>
+        {% endif %}
+
+    </div>
     <div class="row"><br>
             {% for camp in camps %}
             <div class="col-xs-12 camp__wrapper" data-aos="fade" data-aos-once="true">
@@ -33,12 +41,11 @@
                         <h2 id="{{ camp.id }}">{{ camp.name }}</h2>
                         <div class="camp__badges">
                             {% if camp.status == 'open' %}<span class="bg-info">{{ labels.members }}</span>{%  endif %}
-                            {% if camp.accept_families == 'open' %}<span class="bg-success">{{ labels.families }}</span>{%  endif %}
-                            {% if camp.support_art == 'open' %}<span class="bg-danger">{{ labels.support_art }}</span>{%  endif %}
                         </div>
                     </div>
-                    {% if camp.leader_name and camp.leader_email %}
+
                     <div class="camp__description col-xs-12 col-sm-4">
+                        {% if camp.status == 'open' and camp.leader_name and camp.leader_email %}
                         <h3>{{ labels.contact_details }}</h3>
                         <dl>
                             {% if camp.leader_name %}
@@ -50,8 +57,9 @@
                             <dd>{{ camp.leader_email }}</dd>
                             {% endif %}
                         </dl>
+                        {% endif %}
                     </div>
-                    {% endif %}
+
                     {% if camp.description %}
                     <div class="camp__description col-xs-12 col-sm-4">
                         <h3>{{ labels.description }}</h3>
