@@ -29,15 +29,23 @@ def get_context(**context):
     context["labels"] = {label_id: label[{"he":0,"en":1}[context["lang"]]] for label_id, label in LABELS.items()}
     return template_functions.get_context(context)
 
+def get_camp_context(camp):
+    for k in ["name", "leader_name", "leader_email", "description"]:
+        if not camp[k] or camp[k] == "NULL":
+            camp[k] = ""
+        else:
+            camp[k] = camp[k].strip()
+    return camp
+
 def get_camps(lang):
     for index, camp in enumerate(all_camps):
-        yield {"index": index,
-               "id": camp["camp_name_en"].replace(' ', '').lower(),
-               "name": camp["camp_name_{}".format(lang)],
-               "leader_name": camp["name"],
-               "leader_email": camp["email"],
-               "description": camp.get("camp_desc_{}".format(lang)),
-               "status": camp.get("status")}
+        yield get_camp_context({"index": index,
+                                "id": camp["camp_name_en"].replace(' ', '').lower(),
+                                "name": camp["camp_name_{}".format(lang)],
+                                "leader_name": camp["name"],
+                                "leader_email": camp["email"],
+                                "description": camp.get("camp_desc_{}".format(lang)),
+                                "status": camp.get("status")})
 
 
 env = template_functions.get_jinja_env()

@@ -7,3 +7,7 @@ firebase.json
 public/index_he.html
 public/index_en.html
 camps2018.csv
+docker-compose.override.yaml
+camps2018.tsv
+*.bak
+__pycache__

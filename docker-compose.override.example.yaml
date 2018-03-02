@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+
+  camps_index:
+    environment:
+    - MYSQL_PASS=foobarbaz
