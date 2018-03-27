@@ -45,17 +45,15 @@
                     </div>
 
                     <div class="camp__description col-xs-12 col-sm-4">
-                        {% if camp.status == 'open' and camp.leader_name and camp.leader_email %}
+                        {% if camp.status == 'open' and camp.leader_email %}
                         <h3>{{ labels.contact_details }}</h3>
                         <dl>
                             {% if camp.leader_name %}
                             <dt>{{ labels.contact_name }}</dt>
                             <dd>{{ camp.leader_name }}</dd>
                             {% endif %}
-                            {% if camp.leader_email %}
                             <dt>{{ labels.contact_email }}</dt>
                             <dd>{{ camp.leader_email }}</dd>
-                            {% endif %}
                         </dl>
                         {% endif %}
                     </div>
